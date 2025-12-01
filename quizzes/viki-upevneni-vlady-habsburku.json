@@ -1,0 +1,251 @@
+{
+  "topic": "Novověk, Třicetiletá válka a Baroko v českých zemích",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Která událost v roce 1618 odstartovala české stavovské povstání a třicetiletou válku?",
+      "options": [
+        "Bitva na Bílé hoře",
+        "Pražská defenestrace",
+        "Poprava 27 českých pánů",
+        "Vydání Obnoveného zřízení zemského"
+      ],
+      "answer": 1,
+      "explanation": "V roce 1618 vyhodili zástupci stavů z oken Pražského hradu dva místodržící. Tato událost se nazývá pražská defenestrace."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fridrichu Falckému, který vládl pouze jednu zimu, se přezdívalo ___ král.",
+      "answer": "zimní",
+      "explanation": "Fridrich Falcký byl zvolen českým králem, ale vládl pouze krátce přes zimu 1619/1620, proto se mu říká zimní král."
+    },
+    {
+      "type": "true_false",
+      "question": "Bitva na Bílé hoře v roce 1620 skončila vítězstvím českých stavů.",
+      "answer": false,
+      "explanation": "Bitva na Bílé hoře skončila drtivou porážkou českých stavů a vítězstvím císařské armády."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Dne 21. 6. 1621 bylo na Staroměstském náměstí popraveno ___ vůdců povstání.",
+      "answer": "27",
+      "explanation": "Jako trest za povstání bylo na Staroměstském náměstí popraveno 27 českých pánů (šlechticů a měšťanů)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaké náboženství bylo po porážce povstání v českých zemích jediné povolené?",
+      "options": [
+        "Luteránství",
+        "Kalvinismus",
+        "Katolictví",
+        "Jednota bratrská"
+      ],
+      "answer": 2,
+      "explanation": "Po porážce povstání bylo prohlášeno za jediné povolené náboženství katolické vyznání. Nekatolíci museli přestoupit na víru nebo odejít ze země."
+    },
+    {
+      "type": "true_false",
+      "question": "Po bitvě na Bílé hoře byla němčina zrovnoprávněna s češtinou.",
+      "answer": true,
+      "explanation": "Habsburkové zavedli nové zákony, podle kterých byla němčina úředně zrovnoprávněna s češtinou, což vedlo k postupnému poněmčování."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Jan Amos Komenský, který musel odejít do exilu, je známý pod čestným titulem Učitel ___.",
+      "answer": "národů",
+      "explanation": "Jan Amos Komenský je celosvětově uznávaný pedagog a myslitel, přezdívá se mu Učitel národů."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se jmenuje slavná učebnice Jana Amose Komenského, která využívala obrázky k výuce jazyků?",
+      "options": [
+        "Labyrint světa a ráj srdce",
+        "Orbis Pictus (Svět v obrazech)",
+        "Škola hrou",
+        "Brána jazyků otevřená"
+      ],
+      "answer": 1,
+      "explanation": "Orbis Pictus (Svět v obrazech) je slavná učebnice, kde Komenský propojil slova s obrázky pro snazší učení."
+    },
+    {
+      "type": "true_false",
+      "question": "Třicetiletá válka trvala od roku 1618 do roku 1648.",
+      "answer": true,
+      "explanation": "Válka začala českým povstáním v roce 1618 a skončila vestfálským mírem v roce 1648."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které město se v roce 1645 úspěšně ubránilo švédskému obléhání?",
+      "options": [
+        "Praha",
+        "Brno",
+        "Olomouc",
+        "Plzeň"
+      ],
+      "answer": 1,
+      "explanation": "Brno se v roce 1645 úspěšně ubránilo přesile švédských vojsk, což pomohlo zastavit jejich postup na Vídeň."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Bezplatná práce poddaných na panských polích se nazývala ___.",
+      "answer": "robota",
+      "explanation": "Robota byla povinná bezplatná práce, kterou museli poddaní vykonávat pro vrchnost."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamenalo nevolnictví pro poddané po třicetileté válce?",
+      "options": [
+        "Mohli svobodně cestovat",
+        "Nesměli se stěhovat, ženit ani studovat bez souhlasu pána",
+        "Nemuseli platit daně",
+        "Měli stejná práva jako šlechta"
+      ],
+      "answer": 1,
+      "explanation": "Nevolnictví znamenalo, že poddaní byli připoutáni k půdě a bez souhlasu vrchnosti se nesměli stěhovat, uzavírat sňatky ani dávat děti na studia."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vůdcem povstání Chodů, který byl popraven v Plzni v roce 1695, byl Jan Sladký ___.",
+      "answer": "Kozina",
+      "explanation": "Jan Sladký Kozina byl vůdcem chodského povstání proti vrchnosti a stal se symbolem odporu proti útlaku."
+    },
+    {
+      "type": "true_false",
+      "question": "Císařský robotní patent omezil robotu na maximálně 3 dny v týdnu.",
+      "answer": true,
+      "explanation": "Po selských bouřích vydal císař patent, který omezoval robotu na nanejvýš tři dny v týdnu (s výjimkou žní)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se změnila šlechta v českých zemích po bitvě na Bílé hoře?",
+      "options": [
+        "Zůstala stejná, jen změnila víru",
+        "Českou nekatolickou šlechtu nahradila cizí šlechta věrná Habsburkům",
+        "Šlechta ztratila veškerý majetek ve prospěch měst",
+        "Vládli pouze měšťané"
+      ],
+      "answer": 1,
+      "explanation": "Majetek nekatolické šlechty byl zabaven a rozdán či prodán cizím šlechticům (z Rakouska, Německa, Itálie atd.), kteří byli věrní katolické církvi a Habsburkům."
+    },
+    {
+      "type": "true_false",
+      "question": "V 17. století se na šlechtických stolech začaly objevovat nové plodiny jako brambory a kukuřice.",
+      "answer": true,
+      "explanation": "Ze zámoří se do Evropy začaly dovážet nové plodiny, včetně brambor, kukuřice a rajčat, a také pochutiny jako káva a čokoláda."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Místo hradů si šlechta v baroku stavěla pohodlná a honosná sídla zvaná ___.",
+      "answer": "zámky",
+      "explanation": "Staré a nepohodlné hrady byly opouštěny nebo přestavovány na luxusní zámky s parky a zahradami."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co bylo typické pro manufaktury?",
+      "options": [
+        "Jeden řemeslník vyrobil celý výrobek sám",
+        "Práce byla rozdělena na dílčí úkony mezi více dělníků",
+        "Vyrábělo se pouze pomocí strojů bez lidské práce",
+        "Byly to malé dílny na vesnicích"
+      ],
+      "answer": 1,
+      "explanation": "V manufakturách byla práce rozdělena na jednotlivé úkony (dělba práce), což umožnilo vyrobit více zboží levněji než v cechovní výrobě."
+    },
+    {
+      "type": "fill_blank",
+      "question": "České země se proslavily výrobou čirého broušeného skla, kterému se říká český ___.",
+      "answer": "křišťál",
+      "explanation": "Český křišťál se stal světově proslulým zbožím díky své kvalitě a technice broušení."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaký umělecký sloh převládal v 17. a 18. století a vyznačoval se velkolepostí, city a zdobností?",
+      "options": [
+        "Gotika",
+        "Renesance",
+        "Baroko",
+        "Románský sloh"
+      ],
+      "answer": 2,
+      "explanation": "Baroko je sloh typický pro 17. a 18. století, charakteristický svou velkolepostí, snahou ohromit člověka, křivkami a bohatou výzdobou."
+    },
+    {
+      "type": "true_false",
+      "question": "Morové sloupy se stavěly jako poděkování za odvrácení morové epidemie.",
+      "answer": true,
+      "explanation": "Na náměstích měst se stavěly morové sloupy (často se sochou Panny Marie) jako výraz vděčnosti za překonání moru."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Autorem vánoční koledy 'Chtíc, aby spal' je barokní skladatel Adam Václav ___.",
+      "answer": "Michna",
+      "explanation": "Adam Václav Michna z Otradovic byl významný český barokní skladatel a básník."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který světec byl v době baroka nejčastěji zobrazován na mostech a byl v roce 1729 svatořečen?",
+      "options": [
+        "Sv. Václav",
+        "Jan Nepomucký",
+        "Sv. Vojtěch",
+        "Mistr Jan Hus"
+      ],
+      "answer": 1,
+      "explanation": "Jan Nepomucký byl v baroku nesmírně populární světec, jeho sochy zdobí mnoho mostů a byl svatořečen v roce 1729."
+    },
+    {
+      "type": "true_false",
+      "question": "Vzdělání na venkově bylo v baroku velmi rozšířené a většina lidí uměla číst a psát.",
+      "answer": false,
+      "explanation": "Školy na vesnicích byly vzácné a navštěvovalo je málo žáků. Mnoho lidí na venkově neumělo číst ani psát."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sochař Matyáš Bernard ___ vytvořil sochy Ctností a Neřestí v hospitálu Kuks.",
+      "answer": "Braun",
+      "explanation": "Matyáš Bernard Braun je jedním z nejvýznamnějších barokních sochařů, známý svou prací v Kuksu."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdo měl v barokní době pod kontrolou většinu školství včetně univerzit?",
+      "options": [
+        "Jednota bratrská",
+        "Jezuité (tovaryšstvo Ježíšovo)",
+        "Městské rady",
+        "Král"
+      ],
+      "answer": 1,
+      "explanation": "Katolický řád jezuitů měl velký vliv na vzdělávání a spravoval mnoho škol, gymnázií i univerzitu."
+    },
+    {
+      "type": "true_false",
+      "question": "Barokní kostely měly za úkol ohromit věřící a představovat obraz nebeského ráje.",
+      "answer": true,
+      "explanation": "Barokní architektura cílila na emoce, využívala zlato, světlo a malby k vytvoření iluze nebe a ohromení návštěvníka."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Habsburkové upevnili svou moc tím, že prohlásili český trůn za ___ v rodě Habsburků.",
+      "answer": "dědičný",
+      "explanation": "V Obnoveném zřízení zemském bylo stanoveno, že Habsburkové mají na český trůn dědičné právo, nemuseli být tedy znovu voleni."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který panovník vládl v době bitvy na Bílé hoře (na straně vítězů)?",
+      "options": [
+        "Rudolf II.",
+        "Ferdinand II.",
+        "Marie Terezie",
+        "Karel IV."
+      ],
+      "answer": 1,
+      "explanation": "Ferdinand II. byl císařem, proti kterému se české stavy vzbouřily, a který po vítězství na Bílé hoře tvrdě potrestal povstalce."
+    },
+    {
+      "type": "true_false",
+      "question": "Města byla po třicetileté válce bohatá a jejich vliv rostl.",
+      "answer": false,
+      "explanation": "Města byla válkou zničena, vylidněna a zchudla. Jejich politický vliv byl výrazně omezen."
+    }
+  ]
+}
