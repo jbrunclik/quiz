@@ -3,7 +3,7 @@
  * Loads and displays available quizzes
  */
 
-const QUIZZES_MANIFEST = '../quizzes/manifest.json';
+const QUIZZES_MANIFEST = './quizzes/manifest.json';
 
 async function loadQuizzes() {
     const quizList = document.getElementById('quiz-list');
