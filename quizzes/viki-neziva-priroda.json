@@ -472,8 +472,8 @@
     {
       "type": "fill_blank",
       "question": "Sypká hornina používaná ve stavebnictví k výrobě betonu je ___.",
-      "answer": "štěrk",
-      "explanation": "Štěrkopísek nebo štěrk se těží v pískovnách a používá se do betonu (str. 19)."
+      "answer": "písek",
+      "explanation": "Písek (nebo štěrkopísek) se těží v pískovnách a používá se do betonu (str. 19)."
     },
     {
       "type": "true_false",
