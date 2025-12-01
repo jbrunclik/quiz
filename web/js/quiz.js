@@ -27,6 +27,68 @@ class QuizRunner {
         };
 
         this.elements.retryBtn.addEventListener('click', () => this.restart());
+
+        // Global keyboard navigation
+        document.addEventListener('keydown', (e) => this.handleKeydown(e));
+    }
+
+    handleKeydown(e) {
+        // Ignore if results are showing or focus is on input
+        if (!this.elements.resultsContainer.classList.contains('hidden')) return;
+        if (document.activeElement.tagName === 'INPUT') {
+            // For fill_blank, Enter submits (already handled in attachEventListeners)
+            return;
+        }
+
+        const question = this.questions[this.currentIndex];
+        const isVertical = question?.type === 'multiple_choice';
+
+        switch (e.key) {
+            case 'ArrowUp':
+            case 'ArrowDown':
+                if (isVertical) {
+                    e.preventDefault();
+                    this.navigateOptions(e.key === 'ArrowUp' ? -1 : 1);
+                }
+                break;
+            case 'ArrowLeft':
+            case 'ArrowRight':
+                if (!isVertical && question?.type === 'true_false') {
+                    e.preventDefault();
+                    this.navigateOptions(e.key === 'ArrowLeft' ? -1 : 1);
+                }
+                break;
+            case 'Enter':
+                if (this.answers[this.currentIndex] != null) {
+                    this.nextQuestion();
+                }
+                break;
+        }
+    }
+
+    navigateOptions(direction) {
+        const question = this.questions[this.currentIndex];
+        if (!question) return;
+
+        if (question.type === 'multiple_choice') {
+            const optionCount = question.options.length;
+            const current = this.answers[this.currentIndex];
+            let newIndex;
+
+            if (current === null) {
+                newIndex = direction === 1 ? 0 : optionCount - 1;
+            } else {
+                newIndex = (current + direction + optionCount) % optionCount;
+            }
+            this.selectAnswer(newIndex);
+        } else if (question.type === 'true_false') {
+            const current = this.answers[this.currentIndex];
+            if (current === null) {
+                this.selectAnswer(true);
+            } else {
+                this.selectAnswer(!current);
+            }
+        }
     }
 
     async init() {
@@ -157,9 +219,10 @@ class QuizRunner {
         const nextBtn = document.getElementById('next-btn');
         const prevBtn = document.getElementById('prev-btn');
 
-        nextBtn.addEventListener('click', () => this.nextQuestion());
+        // Use onclick to avoid accumulating multiple listeners on re-render
+        nextBtn.onclick = () => this.nextQuestion();
         if (prevBtn) {
-            prevBtn.addEventListener('click', () => this.previousQuestion());
+            prevBtn.onclick = () => this.previousQuestion();
         }
 
         switch (questionType) {
@@ -218,7 +281,9 @@ class QuizRunner {
     }
 
     nextQuestion() {
-        if (this.answers[this.currentIndex] === null) return;
+        // Guard against out-of-bounds or unanswered questions
+        if (this.currentIndex >= this.questions.length) return;
+        if (this.answers[this.currentIndex] == null) return;
 
         if (this.currentIndex === this.questions.length - 1) {
             this.showResults();

@@ -22,6 +22,11 @@
     --transition: 150ms ease-in-out;
 }
 
+/* Utilities */
+.hidden {
+    display: none !important;
+}
+
 /* Reset */
 *, *::before, *::after {
     box-sizing: border-box;
