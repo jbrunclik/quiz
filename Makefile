@@ -43,8 +43,8 @@ serve:
 	@echo "Starting local development server..."
 	@mkdir -p .serve
 	@rm -rf .serve/*
-	@cp -r web/* .serve/
-	@cp -r quizzes .serve/
+	@ln -sf ../web/* .serve/
+	@ln -sf ../quizzes .serve/
 	@echo "Open http://localhost:8000 in your browser"
 	@echo "Press Ctrl+C to stop"
 	@python3 -m http.server 8000 --directory .serve
