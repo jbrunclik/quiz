@@ -39,7 +39,7 @@ class QuizRunner {
         }
 
         try {
-            const response = await fetch(`./quizzes/${topicFile}`);
+            const response = await fetch(`./quizzes/${topicFile}?v=${Date.now()}`);
             if (!response.ok) {
                 throw new Error('Failed to load quiz');
             }
