@@ -41,9 +41,13 @@ update-manifest:
 
 serve:
 	@echo "Starting local development server..."
-	@echo "Open http://localhost:8000/web/ in your browser"
+	@mkdir -p .serve
+	@rm -rf .serve/*
+	@cp -r web/* .serve/
+	@cp -r quizzes .serve/
+	@echo "Open http://localhost:8000 in your browser"
 	@echo "Press Ctrl+C to stop"
-	@python3 -m http.server 8000
+	@python3 -m http.server 8000 --directory .serve
 
 clean:
 	rm -rf venv
