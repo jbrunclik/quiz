@@ -279,9 +279,16 @@ class QuizRunner {
         const prevBtn = document.getElementById('prev-btn');
 
         // Use onclick to avoid accumulating multiple listeners on re-render
-        nextBtn.onclick = () => this.nextQuestion();
+        // Blur after click to prevent iOS Safari from focusing elements at the same position on next render
+        nextBtn.onclick = () => {
+            nextBtn.blur();
+            this.nextQuestion();
+        };
         if (prevBtn) {
-            prevBtn.onclick = () => this.previousQuestion();
+            prevBtn.onclick = () => {
+                prevBtn.blur();
+                this.previousQuestion();
+            };
         }
 
         switch (questionType) {
