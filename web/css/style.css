@@ -222,7 +222,7 @@ header h1 {
     background: rgba(59, 130, 246, 0.15);
 }
 
-.option-btn:focus {
+.option-btn:focus-visible {
     outline: none;
     border-color: var(--color-primary);
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
@@ -262,6 +262,9 @@ header h1 {
 .fill-blank-input:focus {
     outline: none;
     border-color: var(--color-primary);
+}
+
+.fill-blank-input:focus-visible {
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
 }
 
