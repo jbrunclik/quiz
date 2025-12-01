@@ -9,6 +9,7 @@ class QuizRunner {
         this.currentIndex = 0;
         this.answers = [];
         this.topicName = '';
+        this.helpVisible = false;
 
         this.elements = {
             title: document.getElementById('quiz-title'),
@@ -33,12 +34,26 @@ class QuizRunner {
     }
 
     handleKeydown(e) {
-        // Ignore if results are showing or focus is on input
-        if (!this.elements.resultsContainer.classList.contains('hidden')) return;
-        if (document.activeElement.tagName === 'INPUT') {
-            // For fill_blank, Enter submits (already handled in attachEventListeners)
+        // Escape goes back to quiz list
+        if (e.key === 'Escape') {
+            if (this.helpVisible) {
+                this.hideHelp();
+            } else {
+                window.location.href = 'index.html';
+            }
             return;
         }
+
+        // ? shows help (except when typing in input)
+        if (e.key === '?' && document.activeElement.tagName !== 'INPUT') {
+            this.toggleHelp();
+            return;
+        }
+
+        // Ignore other keys if help or results are showing, or focus is on input
+        if (this.helpVisible) return;
+        if (!this.elements.resultsContainer.classList.contains('hidden')) return;
+        if (document.activeElement.tagName === 'INPUT') return;
 
         const question = this.questions[this.currentIndex];
         const isVertical = question?.type === 'multiple_choice';
@@ -64,6 +79,50 @@ class QuizRunner {
                 }
                 break;
         }
+    }
+
+    toggleHelp() {
+        if (this.helpVisible) {
+            this.hideHelp();
+        } else {
+            this.showHelp();
+        }
+    }
+
+    showHelp() {
+        if (document.getElementById('help-overlay')) return;
+
+        const overlay = document.createElement('div');
+        overlay.id = 'help-overlay';
+        overlay.className = 'help-overlay';
+        overlay.innerHTML = `
+            <div class="help-popup">
+                <h3>Klávesové zkratky</h3>
+                <dl class="shortcuts-list">
+                    <div><dt>↑ ↓</dt><dd>Výběr odpovědi (multiple choice)</dd></div>
+                    <div><dt>← →</dt><dd>Výběr odpovědi (pravda/nepravda)</dd></div>
+                    <div><dt>Enter</dt><dd>Další otázka</dd></div>
+                    <div><dt>Esc</dt><dd>Zpět na seznam kvízů</dd></div>
+                    <div><dt>?</dt><dd>Zobrazit/skrýt nápovědu</dd></div>
+                </dl>
+                <button class="btn btn-secondary" id="close-help">Zavřít</button>
+            </div>
+        `;
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay || e.target.id === 'close-help') {
+                this.hideHelp();
+            }
+        });
+        document.body.appendChild(overlay);
+        this.helpVisible = true;
+    }
+
+    hideHelp() {
+        const overlay = document.getElementById('help-overlay');
+        if (overlay) {
+            overlay.remove();
+        }
+        this.helpVisible = false;
     }
 
     navigateOptions(direction) {

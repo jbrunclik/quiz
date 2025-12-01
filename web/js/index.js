@@ -4,6 +4,9 @@
  */
 
 const QUIZZES_MANIFEST = './quizzes/manifest.json?v=' + Date.now();
+let selectedIndex = 0;
+let quizCards = [];
+let helpVisible = false;
 
 async function loadQuizzes() {
     const quizList = document.getElementById('quiz-list');
@@ -32,6 +35,12 @@ async function loadQuizzes() {
             const card = createQuizCard(quiz);
             quizList.appendChild(card);
         }
+
+        quizCards = Array.from(quizList.querySelectorAll('.quiz-card'));
+        if (quizCards.length > 0) {
+            updateSelection(0);
+            setupKeyboardNavigation();
+        }
     } catch (error) {
         console.error('Error loading quizzes:', error);
         quizList.innerHTML = `
@@ -41,6 +50,94 @@ async function loadQuizzes() {
             </div>
         `;
     }
+}
+
+function updateSelection(newIndex) {
+    quizCards.forEach((card, i) => {
+        card.classList.toggle('selected', i === newIndex);
+    });
+    selectedIndex = newIndex;
+    quizCards[selectedIndex].scrollIntoView({ block: 'nearest' });
+}
+
+function setupKeyboardNavigation() {
+    document.addEventListener('keydown', (e) => {
+        // ? shows help
+        if (e.key === '?') {
+            toggleHelp();
+            return;
+        }
+
+        // Escape closes help
+        if (e.key === 'Escape' && helpVisible) {
+            hideHelp();
+            return;
+        }
+
+        // Ignore other keys if help is showing
+        if (helpVisible) return;
+
+        switch (e.key) {
+            case 'ArrowUp':
+                e.preventDefault();
+                if (selectedIndex > 0) {
+                    updateSelection(selectedIndex - 1);
+                }
+                break;
+            case 'ArrowDown':
+                e.preventDefault();
+                if (selectedIndex < quizCards.length - 1) {
+                    updateSelection(selectedIndex + 1);
+                }
+                break;
+            case 'Enter':
+                e.preventDefault();
+                quizCards[selectedIndex].click();
+                break;
+        }
+    });
+}
+
+function toggleHelp() {
+    if (helpVisible) {
+        hideHelp();
+    } else {
+        showHelp();
+    }
+}
+
+function showHelp() {
+    if (document.getElementById('help-overlay')) return;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'help-overlay';
+    overlay.className = 'help-overlay';
+    overlay.innerHTML = `
+        <div class="help-popup">
+            <h3>Klávesové zkratky</h3>
+            <dl class="shortcuts-list">
+                <div><dt>↑ ↓</dt><dd>Výběr kvízu</dd></div>
+                <div><dt>Enter</dt><dd>Spustit kvíz</dd></div>
+                <div><dt>?</dt><dd>Zobrazit/skrýt nápovědu</dd></div>
+            </dl>
+            <button class="btn btn-secondary" id="close-help">Zavřít</button>
+        </div>
+    `;
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay || e.target.id === 'close-help') {
+            hideHelp();
+        }
+    });
+    document.body.appendChild(overlay);
+    helpVisible = true;
+}
+
+function hideHelp() {
+    const overlay = document.getElementById('help-overlay');
+    if (overlay) {
+        overlay.remove();
+    }
+    helpVisible = false;
 }
 
 function createQuizCard(quiz) {
