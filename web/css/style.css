@@ -215,11 +215,16 @@ header h1 {
     color: var(--color-text);
     cursor: pointer;
     transition: all var(--transition);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
-.option-btn:hover:not(:disabled) {
-    border-color: var(--color-primary);
-    background: rgba(59, 130, 246, 0.15);
+/* Only apply hover styles on devices with hover capability (not touch) */
+@media (hover: hover) and (pointer: fine) {
+    .option-btn:hover:not(:disabled) {
+        border-color: var(--color-primary);
+        background: rgba(59, 130, 246, 0.15);
+    }
 }
 
 .option-btn:focus-visible {
@@ -231,6 +236,11 @@ header h1 {
 .option-btn.selected {
     border-color: var(--color-primary);
     background: rgba(59, 130, 246, 0.25);
+}
+
+/* Prevent false highlight on newly rendered options (iOS Safari) */
+.option-btn.no-interaction {
+    pointer-events: none;
 }
 
 /* True/False buttons */
@@ -289,6 +299,7 @@ header h1 {
     cursor: pointer;
     text-decoration: none;
     transition: all var(--transition);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn-primary {

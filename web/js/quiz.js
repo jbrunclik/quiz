@@ -244,8 +244,9 @@ class QuizRunner {
     renderMultipleChoice(question, savedAnswer) {
         const options = question.options.map((option, index) => {
             const selected = savedAnswer === index ? 'selected' : '';
+            // Add no-interaction class to prevent iOS false highlight on render
             return `
-                <button class="option-btn ${selected}" data-index="${index}">
+                <button class="option-btn no-interaction ${selected}" data-index="${index}">
                     ${this.escapeHtml(option)}
                 </button>
             `;
@@ -258,10 +259,11 @@ class QuizRunner {
         const trueSelected = savedAnswer === true ? 'selected' : '';
         const falseSelected = savedAnswer === false ? 'selected' : '';
 
+        // Add no-interaction class to prevent iOS false highlight on render
         return `
             <div class="tf-options">
-                <button class="option-btn tf-btn ${trueSelected}" data-value="true">Pravda</button>
-                <button class="option-btn tf-btn ${falseSelected}" data-value="false">Nepravda</button>
+                <button class="option-btn tf-btn no-interaction ${trueSelected}" data-value="true">Pravda</button>
+                <button class="option-btn tf-btn no-interaction ${falseSelected}" data-value="false">Nepravda</button>
             </div>
         `;
     }
@@ -279,16 +281,9 @@ class QuizRunner {
         const prevBtn = document.getElementById('prev-btn');
 
         // Use onclick to avoid accumulating multiple listeners on re-render
-        // Blur after click to prevent iOS Safari from focusing elements at the same position on next render
-        nextBtn.onclick = () => {
-            nextBtn.blur();
-            this.nextQuestion();
-        };
+        nextBtn.onclick = () => this.nextQuestion();
         if (prevBtn) {
-            prevBtn.onclick = () => {
-                prevBtn.blur();
-                this.previousQuestion();
-            };
+            prevBtn.onclick = () => this.previousQuestion();
         }
 
         switch (questionType) {
@@ -298,6 +293,11 @@ class QuizRunner {
                         const index = parseInt(e.target.dataset.index);
                         this.selectAnswer(index);
                     });
+                    btn.addEventListener('dblclick', (e) => {
+                        const index = parseInt(e.target.dataset.index);
+                        this.selectAnswer(index);
+                        this.nextQuestion();
+                    });
                 });
                 break;
 
@@ -306,6 +306,11 @@ class QuizRunner {
                     btn.addEventListener('click', (e) => {
                         const value = e.target.dataset.value === 'true';
                         this.selectAnswer(value);
+                    });
+                    btn.addEventListener('dblclick', (e) => {
+                        const value = e.target.dataset.value === 'true';
+                        this.selectAnswer(value);
+                        this.nextQuestion();
                     });
                 });
                 break;
@@ -324,6 +329,15 @@ class QuizRunner {
                 input.focus();
                 break;
         }
+
+        // Enable interaction on option buttons after a short delay
+        // This prevents iOS Safari from falsely highlighting elements at the
+        // position where the user tapped the Next button
+        setTimeout(() => {
+            document.querySelectorAll('.option-btn.no-interaction').forEach(btn => {
+                btn.classList.remove('no-interaction');
+            });
+        }, 50);
     }
 
     selectAnswer(answer) {
