@@ -41,10 +41,10 @@ update-manifest:
 
 serve:
 	@echo "Starting local development server..."
+	@rm -rf .serve
 	@mkdir -p .serve
-	@rm -rf .serve/*
-	@ln -sf ../web/* .serve/
-	@ln -sf ../quizzes .serve/
+	@for f in web/*; do ln -sf ../$$f .serve/$$(basename $$f); done
+	@ln -sf ../quizzes .serve/quizzes
 	@echo "Open http://localhost:8000 in your browser"
 	@echo "Press Ctrl+C to stop"
 	@python3 -m http.server 8000 --directory .serve
