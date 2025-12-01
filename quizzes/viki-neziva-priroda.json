@@ -1,0 +1,503 @@
+{
+  "topic": "Život na Zemi, Vesmír, Podnebné pásy a Neživá příroda",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Co patří do neživé přírody?",
+      "options": [
+        "Rostliny, houby a živočichové",
+        "Slunce, vzduch, voda, nerosty a horniny, půda",
+        "Pouze kameny a písek",
+        "Lidé a jejich výtvory"
+      ],
+      "answer": 1,
+      "explanation": "Podle učebnice (str. 5) tvoří neživou přírodu teplo a světlo ze Slunce, vzduch, voda, nerosty a horniny a půda."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Síla, která přitahuje všechna tělesa k zemi, se nazývá ___.",
+      "answer": "gravitace",
+      "explanation": "Gravitace (přitažlivost zemská) je síla, která způsobuje, že předměty padají k zemi."
+    },
+    {
+      "type": "true_false",
+      "question": "Měsíc má menší gravitaci než Země.",
+      "answer": true,
+      "explanation": "Měsíc má menší hmotnost než Země, proto na předměty působí asi 6krát menší gravitační silou (str. 6)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se jmenuje vědec, který podle legendy objevil gravitační zákon, když mu spadlo jablko na hlavu?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Charles Darwin"
+      ],
+      "answer": 1,
+      "explanation": "Učebnice na straně 6 zmiňuje Isaaca Newtona v souvislosti s objevem gravitace."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Čím větší hmotnost tělesa mají, tím ___ gravitační silou na sebe navzájem působí.",
+      "answer": "větší",
+      "explanation": "Gravitace je vlastnost všech těles. Čím je hmotnost větší, tím je i přitažlivá síla větší."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Za jak dlouho oběhne Země kolem Slunce?",
+      "options": [
+        "Za 24 hodin",
+        "Za 1 měsíc",
+        "Za 1 rok (365 a čtvrt dne)",
+        "Za 10 let"
+      ],
+      "answer": 2,
+      "explanation": "Země oběhne Slunce jednou za rok, což trvá přibližně 365 dní a 6 hodin (str. 7)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Rok, který má 366 dní, se nazývá ___.",
+      "answer": "přestupný",
+      "explanation": "Jednou za 4 roky se zbylé čtvrtiny dne sečtou a vznikne přestupný rok, který má o jeden den více."
+    },
+    {
+      "type": "true_false",
+      "question": "Střídání dne a noci je způsobeno oběhem Země kolem Slunce.",
+      "answer": false,
+      "explanation": "Střídání dne a noci je způsobeno otáčením Země kolem své vlastní osy, nikoliv oběhem kolem Slunce (str. 7)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Myšlená přímka, kolem které se otáčí Země a která spojuje severní a jižní pól, se nazývá zemská ___.",
+      "answer": "osa",
+      "explanation": "Zemská osa je myšlená přímka procházející středem Země a póly."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdy jsou stíny vržené Sluncem nejkratší?",
+      "options": [
+        "Ráno",
+        "V poledne",
+        "Večer",
+        "V noci"
+      ],
+      "answer": 1,
+      "explanation": "V poledne dopadají sluneční paprsky pod největším úhlem, proto jsou stíny nejkratší (str. 8)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejteplejší částí Země je oblast kolem rovníku, protože tam sluneční paprsky dopadají ___.",
+      "answer": "kolmo",
+      "explanation": "V oblasti rovníku dopadají paprsky kolmo nebo pod velkým úhlem, proto je tam nejvíce tepla."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdy nastává letní slunovrat na severní polokouli?",
+      "options": [
+        "21. března",
+        "21. června",
+        "23. září",
+        "21. prosince"
+      ],
+      "answer": 1,
+      "explanation": "Letní slunovrat, kdy začíná léto a je nejdelší den, nastává 20. nebo 21. června (str. 9)."
+    },
+    {
+      "type": "true_false",
+      "question": "Při zimním slunovratu je u nás nejkratší den a nejdelší noc.",
+      "answer": true,
+      "explanation": "Zimní slunovrat (kolem 21. prosince) znamená začátek zimy a nejkratší den v roce."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Dny, kdy je den stejně dlouhý jako noc, se nazývají jarní a podzimní ___.",
+      "answer": "rovnodennost",
+      "explanation": "Rovnodennost nastává na jaře (březen) a na podzim (září), kdy jsou den a noc přibližně stejně dlouhé."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který podnebný pás je nejchladnější?",
+      "options": [
+        "Tropický pás",
+        "Subtropický pás",
+        "Mírný pás",
+        "Polární pás"
+      ],
+      "answer": 3,
+      "explanation": "Polární pásy kolem severního a jižního pólu jsou nejchladnějšími oblastmi na Zemi (str. 10)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Oblast kolem rovníku s horkým a vlhkým podnebím, kde rostou deštné lesy, se nazývá ___ pás.",
+      "answer": "tropický",
+      "explanation": "Tropický pás se nachází kolem rovníku a je charakteristický teplem a deštnými lesy."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které zvíře je typické pro savanu?",
+      "options": [
+        "Lední medvěd",
+        "Lev",
+        "Tučňák",
+        "Jelen"
+      ],
+      "answer": 1,
+      "explanation": "Lvi, sloni a žirafy jsou typickými zvířaty afrických savan (str. 11)."
+    },
+    {
+      "type": "true_false",
+      "question": "V tropickém deštném lese se střídají čtyři roční období.",
+      "answer": false,
+      "explanation": "V tropickém deštném lese je trvale teplo a vlhko, roční období se tam nestřídají tak jako v mírném pásu (str. 11)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Krajina v tropickém pásu s nedostatkem srážek a velkými teplotními rozdíly mezi dnem a nocí se nazývá ___.",
+      "answer": "poušť",
+      "explanation": "Pouště jsou suché oblasti s minimem srážek a extrémními teplotami."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "V jakém podnebném pásu leží Česká republika?",
+      "options": [
+        "V tropickém pásu",
+        "V mírném pásu",
+        "V polárním pásu",
+        "V subtropickém pásu"
+      ],
+      "answer": 1,
+      "explanation": "Česká republika leží v mírném podnebném pásu, kde se střídají čtyři roční období (str. 12)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Jehličnatým lesům v chladnějších oblastech mírného pásu (např. na Sibiři) se říká ___.",
+      "answer": "tajga",
+      "explanation": "Tajga je označení pro rozsáhlé jehličnaté lesy na severní polokouli."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které zvíře žije na jižním pólu (v Antarktidě)?",
+      "options": [
+        "Lední medvěd",
+        "Tučňák",
+        "Tygr",
+        "Velbloud"
+      ],
+      "answer": 1,
+      "explanation": "Tučňáci žijí na jižní polokouli (Antarktida), zatímco lední medvědi na severní (Arktida) (str. 13)."
+    },
+    {
+      "type": "true_false",
+      "question": "Tundra je krajina v polárním pásu, kde je půda většinu roku zmrzlá.",
+      "answer": true,
+      "explanation": "Tundra je charakteristická trvale zmrzlou půdou a nízkou vegetací (mechy, lišejníky) (str. 13)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Plynný obal Země se nazývá ___.",
+      "answer": "atmosféra",
+      "explanation": "Atmosféra je vzdušný obal, který obklopuje naši planetu (str. 14)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který plyn je ve vzduchu zastoupen nejvíce?",
+      "options": [
+        "Kyslík",
+        "Dusík",
+        "Oxid uhličitý",
+        "Vodní pára"
+      ],
+      "answer": 1,
+      "explanation": "Vzduch obsahuje nejvíce dusíku, méně kyslíku a ostatních plynů (str. 14)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vrstva atmosféry, která chrání Zemi před škodlivým ultrafialovým zářením ze Slunce, se nazývá ___.",
+      "answer": "ozonosféra",
+      "explanation": "Ozonová vrstva (ozonosféra) pohlcuje škodlivé UV záření."
+    },
+    {
+      "type": "true_false",
+      "question": "Skleníkový efekt je pro život na Zemi nezbytný, protože udržuje vhodnou teplotu.",
+      "answer": true,
+      "explanation": "Bez přirozeného skleníkového efektu by byla Země příliš chladná. Problémem je až jeho nadměrné zesilování (str. 15)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se nazývá věda, která se zabývá počasím a jeho předpovídáním?",
+      "options": [
+        "Geologie",
+        "Biologie",
+        "Meteorologie",
+        "Astronomie"
+      ],
+      "answer": 2,
+      "explanation": "Meteorologie je věda o počasí (str. 15)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Přeměna vody z kapalného skupenství na plynné se nazývá ___.",
+      "answer": "vypařování",
+      "explanation": "Vypařování je proces, kdy se voda mění na vodní páru."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "V jakých třech skupenstvích se vyskytuje voda na Zemi?",
+      "options": [
+        "Tvrdé, měkké, plynné",
+        "Pevné, kapalné, plynné",
+        "Studené, teplé, horké",
+        "Slané, sladké, minerální"
+      ],
+      "answer": 1,
+      "explanation": "Voda existuje jako led (pevné), voda (kapalné) a pára (plynné) (str. 16)."
+    },
+    {
+      "type": "true_false",
+      "question": "Většina vody na Zemi je sladká a pitná.",
+      "answer": false,
+      "explanation": "Většina vody na Zemi je slaná (v oceánech). Sladké vody je mnohem méně (str. 17)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Voda v oceánech a mořích je ___.",
+      "answer": "slaná",
+      "explanation": "Oceány a moře obsahují rozpuštěné soli, proto je jejich voda slaná."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která z následujících možností NENÍ částí stavby Země?",
+      "options": [
+        "Zemská kůra",
+        "Zemský plášť",
+        "Zemské jádro",
+        "Zemská střecha"
+      ],
+      "answer": 3,
+      "explanation": "Země se skládá z kůry, pláště a jádra (str. 18)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejsvrchnější vrstva Země, po které chodíme, se nazývá zemská ___.",
+      "answer": "kůra",
+      "explanation": "Zemská kůra je pevný povrch planety."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Z čeho se skládá žula?",
+      "options": [
+        "Z písku a hlíny",
+        "Z křemene, živce a slídy",
+        "Ze zlata a stříbra",
+        "Z uhlí a ropy"
+      ],
+      "answer": 1,
+      "explanation": "Žula je hornina složená z nerostů: křemene, živce a slídy (str. 18)."
+    },
+    {
+      "type": "true_false",
+      "question": "Horniny jsou tvořeny nerosty.",
+      "answer": true,
+      "explanation": "Horniny jsou směsi různých nerostů (str. 18)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Hornina, která vznikla usazováním zrnek písku, se nazývá ___.",
+      "answer": "pískovec",
+      "explanation": "Pískovec je usazená hornina vzniklá zpevněním písku (str. 20)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak vznikl vápenec?",
+      "options": [
+        "Ztuhnutím lávy",
+        "Usazováním schránek mořských živočichů",
+        "Drcením žuly",
+        "Z ropy"
+      ],
+      "answer": 1,
+      "explanation": "Vápenec vznikl na dně pravěkých moří usazováním schránek živočichů (str. 20)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Hornina, která se používá ve stavebnictví a sochařství a vznikla přeměnou vápence, je ___.",
+      "answer": "mramor",
+      "explanation": "Mramor je přeměněná hornina vzniklá z vápence (str. 20)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který nerost má magnetické účinky?",
+      "options": [
+        "Zlato",
+        "Magnetovec",
+        "Křemen",
+        "Sůl kamenná"
+      ],
+      "answer": 1,
+      "explanation": "Magnetovec je železná ruda, která přitahuje magnet (str. 21)."
+    },
+    {
+      "type": "true_false",
+      "question": "Zlato a stříbro patří mezi drahé kovy.",
+      "answer": true,
+      "explanation": "Zlato a stříbro jsou vzácné a cenné kovy, používané např. ve šperkařství (str. 21)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nerostné suroviny, které se spalují pro výrobu tepla a elektřiny, se nazývají ___.",
+      "answer": "paliva",
+      "explanation": "Uhlí, ropa a zemní plyn jsou paliva (energetické suroviny) (str. 22)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co se vyrábí z ropy?",
+      "options": [
+        "Pouze benzín",
+        "Benzín, nafta, plasty a další chemikálie",
+        "Sklo a porcelán",
+        "Potraviny"
+      ],
+      "answer": 1,
+      "explanation": "Ropa je základní surovinou pro výrobu pohonných hmot (benzín, nafta) a plastů (str. 22)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejúrodnější část půdy, která vzniká rozkladem rostlin a živočichů, se nazývá ___.",
+      "answer": "humus",
+      "explanation": "Humus je organická složka půdy vzniklá tlením zbytků organismů (str. 23)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co je to eroze?",
+      "options": [
+        "Hnojení půdy",
+        "Rozrušování a odnášení půdy vodou a větrem",
+        "Sázení stromů",
+        "Zavlažování polí"
+      ],
+      "answer": 1,
+      "explanation": "Eroze je proces, při kterém je půda odnášena větrem nebo vodou, což ji poškozuje (str. 23)."
+    },
+    {
+      "type": "true_false",
+      "question": "Půda obsahuje kromě pevných částic také vodu a vzduch.",
+      "answer": true,
+      "explanation": "Součástí půdy je půdní voda a půdní vzduch, které jsou nezbytné pro život v půdě (str. 23)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Rostliny svými kořeny chrání půdu před ___.",
+      "answer": "erozí",
+      "explanation": "Kořeny rostlin zpevňují půdu a brání jejímu odplavování nebo odvátí (str. 23)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která věta o vodě je pravdivá?",
+      "options": [
+        "Voda se v přírodě ztrácí.",
+        "Voda v přírodě neustále obíhá (koloběh vody).",
+        "Voda vzniká pouze v továrnách.",
+        "Voda je jen v kapalném skupenství."
+      ],
+      "answer": 1,
+      "explanation": "Voda na Zemi neustále cirkuluje v tzv. koloběhu vody (vypařování, srážky, odtok) (str. 16)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Zařízení, ve kterém se ze železné rudy získává železo, se nazývá vysoká ___.",
+      "answer": "pec",
+      "explanation": "Železo se taví z rud ve vysokých pecích (str. 21)."
+    },
+    {
+      "type": "true_false",
+      "question": "Pískovec je velmi tvrdá vyvřelá hornina.",
+      "answer": false,
+      "explanation": "Pískovec je usazená hornina a je měkčí než například žula (str. 20)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který plyn vydechují živočichové a rostliny ho potřebují pro svou výživu?",
+      "options": [
+        "Kyslík",
+        "Oxid uhličitý",
+        "Dusík",
+        "Helium"
+      ],
+      "answer": 1,
+      "explanation": "Živočichové vydechují oxid uhličitý, který rostliny využívají při fotosyntéze (str. 14)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Kapalné palivo těžené ze země se nazývá ___.",
+      "answer": "ropa",
+      "explanation": "Ropa je kapalné fosilní palivo (str. 22)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co způsobuje střídání ročních období?",
+      "options": [
+        "Pouze otáčení Země kolem osy",
+        "Oběh Země kolem Slunce a sklon zemské osy",
+        "Měsíc",
+        "Vzdalování Slunce od Země"
+      ],
+      "answer": 1,
+      "explanation": "Střídání ročních období je důsledkem oběhu Země kolem Slunce a stálého sklonu zemské osy (str. 9)."
+    },
+    {
+      "type": "true_false",
+      "question": "Voda při 0 °C taje (mění se z ledu na vodu) nebo mrzne (z vody na led).",
+      "answer": true,
+      "explanation": "0 °C je teplota tání ledu i tuhnutí vody."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejznámější krasové útvary vzniklé z vápence jsou ___.",
+      "answer": "jeskyně",
+      "explanation": "Voda rozpouští vápenec a vytváří jeskyně a krápníky (str. 20)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který z těchto kamenů je nerost (ne hornina)?",
+      "options": [
+        "Žula",
+        "Pískovec",
+        "Křemen",
+        "Vápenec"
+      ],
+      "answer": 2,
+      "explanation": "Křemen je nerost. Žula, pískovec a vápenec jsou horniny složené z více nerostů (str. 18)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sypká hornina používaná ve stavebnictví k výrobě betonu je ___.",
+      "answer": "štěrk",
+      "explanation": "Štěrkopísek nebo štěrk se těží v pískovnách a používá se do betonu (str. 19)."
+    },
+    {
+      "type": "true_false",
+      "question": "Uhlí vzniklo z pravěkých rostlin.",
+      "answer": true,
+      "explanation": "Uhlí (černé i hnědé) vzniklo zuhelnatěním zbytků pravěkých rostlin a stromů pod zemí (str. 22)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jakou barvu má obvykle magnetovec?",
+      "options": [
+        "Zlatou",
+        "Černošedou",
+        "Bílou",
+        "Červenou"
+      ],
+      "answer": 1,
+      "explanation": "Magnetovec je černošedý nerost (str. 21)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pevná schránka Země se skládá z litosférických ___.",
+      "answer": "desek",
+      "explanation": "Zemská kůra není celistvá, ale je rozlámána na litosférické desky (obecná znalost doplňující str. 18)."
+    }
+  ]
+}

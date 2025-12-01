@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvíz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">&larr; Zpět na témata</a>
+            <h1 id="quiz-title">Načítám...</h1>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress" class="progress-fill"></div>
+                </div>
+                <span id="progress-text" class="progress-text">0 / 0</span>
+            </div>
+        </header>
+
+        <main>
+            <div id="quiz-container" class="quiz-container">
+                <div id="question-card" class="question-card">
+                    <p class="loading">Načítám kvíz...</p>
+                </div>
+            </div>
+
+            <div id="results-container" class="results-container hidden">
+                <div class="results-summary">
+                    <h2>Kvíz dokončen!</h2>
+                    <div class="score-display">
+                        <span id="score-value" class="score-value">0</span>
+                        <span class="score-separator">/</span>
+                        <span id="score-total" class="score-total">0</span>
+                    </div>
+                    <p id="score-percentage" class="score-percentage">0%</p>
+                    <p id="score-message" class="score-message"></p>
+                </div>
+
+                <div id="mistakes-section" class="mistakes-section hidden">
+                    <h3>Projdi si chyby</h3>
+                    <div id="mistakes-list" class="mistakes-list"></div>
+                </div>
+
+                <div class="results-actions">
+                    <button id="retry-btn" class="btn btn-primary">Zkusit znovu</button>
+                    <a href="index.html" class="btn btn-secondary">Vybrat jiné téma</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
