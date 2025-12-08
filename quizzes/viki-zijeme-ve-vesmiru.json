@@ -1,0 +1,215 @@
+{
+  "topic": "Vesmír, Sluneční soustava a planeta Země",
+  "questions": [
+    {
+      "type": "fill_blank",
+      "question": "První snímek celé planety Země z vesmíru pořídila posádka lodi Apollo 17 v roce ___.",
+      "answer": "1972",
+      "explanation": "Podle textu na straně 25 pořídila posádka lodi Apollo 17 první snímek celé Země v roce 1972."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se začalo přezdívat Zemi po zveřejnění její fotografie z vesmíru?",
+      "options": [
+        "Modrý oceán",
+        "Modrá skleněnka",
+        "Vesmírná perla",
+        "Modrá planeta"
+      ],
+      "answer": 1,
+      "explanation": "Lidé začali Zemi říkat „modrá skleněnka“, protože si uvědomili, jak je půvabná, ale i křehká."
+    },
+    {
+      "type": "true_false",
+      "question": "Slovo „vesmír“ v češtině původně znamenalo „všechen svět“.",
+      "answer": true,
+      "explanation": "Text uvádí, že české slovo vesmír vzniklo ze staršího výrazu „ves“ (veškerý) a „mír“ (svět), tedy všechen svět."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co je to Galaxie?",
+      "options": [
+        "Jiný název pro Sluneční soustavu",
+        "Soustava jedné hvězdy a planet",
+        "Soustava mnoha hvězd, mlhovin a hvězdokup",
+        "Prázdný prostor ve vesmíru"
+      ],
+      "answer": 2,
+      "explanation": "Podle schématu na straně 25 je Galaxie soustava mnoha hvězd (jedna z mnoha galaxií ve vesmíru)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "První člověk, který vstoupil na povrch Měsíce, se jmenoval ___.",
+      "answer": "Neil Armstrong",
+      "explanation": "Neil Armstrong byl první člověk na Měsíci, přistál tam v rámci mise Apollo 11."
+    },
+    {
+      "type": "true_false",
+      "question": "Měsíc svítí vlastním světlem, proto ho v noci vidíme.",
+      "answer": false,
+      "explanation": "Měsíc nesvítí vlastním světlem, pouze odráží světlo, které na něj dopadá ze Slunce."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak dlouho trvá, než Měsíc oběhne Zemi?",
+      "options": [
+        "Přibližně 365 dní",
+        "Přibližně 24 hodin",
+        "Přibližně 29 a půl dne",
+        "Přibližně 7 dní"
+      ],
+      "answer": 2,
+      "explanation": "Měsíc Zemi oběhne přibližně za 29 a půl dne."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fáze Měsíce, kdy je Měsíc přivrácený k Zemi neosvětlenou stranou a není na obloze vidět, se nazývá ___.",
+      "answer": "nov",
+      "explanation": "Nov (nebo novoluní) je první fáze, kdy Měsíc nevidíme, protože je k nám otočen neosvětlenou stranou."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co způsobuje přitažlivost Měsíce na Zemi?",
+      "options": [
+        "Střídání dne a noci",
+        "Příliv a odliv moře",
+        "Změnu ročních období",
+        "Zatmění Slunce"
+      ],
+      "answer": 1,
+      "explanation": "Měsíc ovlivňuje dění na Zemi, konkrétně způsobuje příliv a odliv moře svou gravitační silou."
+    },
+    {
+      "type": "true_false",
+      "question": "Polský astronom Mikuláš Koperník tvrdil, že Země je středem vesmíru a Slunce obíhá kolem ní.",
+      "answer": false,
+      "explanation": "Naopak, Mikuláš Koperník rozvinul teorii, že Slunce je středem sluneční soustavy a Země obíhá kolem něj."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Naše nejbližší hvězda, která je tvořena žhavou koulí plynů, se nazývá ___.",
+      "answer": "Slunce",
+      "explanation": "Slunce je naše nejbližší hvězda, mohutná žhavá koule složená z plynů."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaká je přibližná teplota na povrchu Slunce?",
+      "options": [
+        "15 milionů stupňů Celsia",
+        "5 000 stupňů Celsia",
+        "100 stupňů Celsia",
+        "1 milion stupňů Celsia"
+      ],
+      "answer": 1,
+      "explanation": "Teplota na povrchu Slunce je asi 5 000 °C (v jádru je to 15 milionů °C)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Planety Sluneční soustavy dělíme na dvě skupiny: planety kamenné a planety ___.",
+      "answer": "plynné",
+      "explanation": "Planety se dělí na kamenné (vnitřní) a plynné (vnější obry)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která planeta je nejblíže Slunci?",
+      "options": [
+        "Venuše",
+        "Země",
+        "Merkur",
+        "Mars"
+      ],
+      "answer": 2,
+      "explanation": "Merkur je planeta nejblíže Slunci, oběhne ho za 88 dní."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Planeta Venuše je na obloze velmi jasná a říká se jí Jitřenka nebo ___.",
+      "answer": "Večernice",
+      "explanation": "Venuši se říká Jitřenka (ráno) nebo Večernice (večer)."
+    },
+    {
+      "type": "true_false",
+      "question": "Mars se nazývá „rudá planeta“ kvůli oxidům železa na jeho povrchu.",
+      "answer": true,
+      "explanation": "Mars má načervenalý povrch díky oxidům železa, proto se mu říká rudá planeta."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která planeta je největší v celé Sluneční soustavě?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Neptun",
+        "Země"
+      ],
+      "answer": 1,
+      "explanation": "Jupiter je největší planeta sluneční soustavy (má 11x větší průměr než Země)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Planeta, která je známá svými výraznými prstenci, se jmenuje ___.",
+      "answer": "Saturn",
+      "explanation": "Saturn je typický svými viditelnými prstenci."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co jsou to planetky (asteroidy)?",
+      "options": [
+        "Velké plynné koule",
+        "Malá kamenná tělesa obíhající hlavně mezi Marsem a Jupiterem",
+        "Úlomky ledu z okraje soustavy",
+        "Družice vyrobené lidmi"
+      ],
+      "answer": 1,
+      "explanation": "Planetky jsou malá, zpravidla kamenná tělesa, která obíhají Slunce v pásu mezi Marsem a Jupiterem."
+    },
+    {
+      "type": "true_false",
+      "question": "Meteorit je meteoroid, který shoří v atmosféře a nedopadne na zem.",
+      "answer": false,
+      "explanation": "Meteorit je zbytek meteoroidu, který neshoří celý v atmosféře a dopadne až na zemský povrch."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Kometa je těleso složené z ledu a ___.",
+      "answer": "prachu",
+      "explanation": "Komety jsou složeny z ledu a prachu (tmavého prachu)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak často se k Zemi přibližuje Halleyova kometa?",
+      "options": [
+        "Každý rok",
+        "Jednou za 75-76 let",
+        "Jednou za 1000 let",
+        "Nikdy se nevrací"
+      ],
+      "answer": 1,
+      "explanation": "Halleyova kometa je viditelná ze Země přibližně jednou za 75 až 76 let."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Světelný jev, který vznikne průletem meteoroidu zemskou atmosférou, se nazývá ___.",
+      "answer": "meteor",
+      "explanation": "Když meteoroid vlétne do atmosféry a začne zářit, tento světelný jev se nazývá meteor."
+    },
+    {
+      "type": "true_false",
+      "question": "Planeta Uran se po své oběžné dráze „kutálí“, protože má výrazně skloněnou osu rotace.",
+      "answer": true,
+      "explanation": "Uran má osu rotace skloněnou tak, že to vypadá, jako by se po své dráze kutálel."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kolik planet má naše Sluneční soustava?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "Sluneční soustava má 8 planet (Merkur, Venuše, Země, Mars, Jupiter, Saturn, Uran, Neptun)."
+    }
+  ]
+}
