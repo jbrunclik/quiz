@@ -1,6 +1,12 @@
 {
   "quizzes": [
     {
+      "file": "bibi-english-2-sensations.json",
+      "topic": "Angličtina - Smysly, Pocity a Předpřítomný čas (Unit 2: Sensations)",
+      "questionCount": 47,
+      "dateAdded": "2025-12-16"
+    },
+    {
       "file": "viki-zijeme-ve-vesmiru.json",
       "topic": "Vesmír, Sluneční soustava a planeta Země",
       "questionCount": 25,

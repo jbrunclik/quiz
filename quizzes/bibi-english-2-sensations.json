@@ -1,0 +1,401 @@
+{
+  "topic": "Angličtina - Smysly, Pocity a Předpřítomný čas (Unit 2: Sensations)",
+  "questions": [
+    {
+      "type": "fill_blank",
+      "question": "Kolik máme základních smyslů (senses)? (Napiš číslo slovy)",
+      "answer": "pět",
+      "explanation": "Existuje pět základních smyslů: zrak, sluch, čich, chuť a hmat."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který smysl používáme, když posloucháme hudbu?",
+      "options": [
+        "Sight (zrak)",
+        "Hearing (sluch)",
+        "Touch (hmat)",
+        "Smell (čich)"
+      ],
+      "answer": 1,
+      "explanation": "Pro poslech hudby používáme sluch (hearing)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Doplň sloveso spojené se zrakem: 'Look at it closely' znamená 'Podívej se na to ___'.",
+      "answer": "zblízka",
+      "explanation": "Closely v tomto kontextu znamená zblízka nebo pozorně."
+    },
+    {
+      "type": "true_false",
+      "question": "Anosmia je stav, kdy člověk nemůže nic cítit (čichem).",
+      "answer": true,
+      "explanation": "Anosmia je definována jako ztráta čichu ('can't smell anything')."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamená pojem 'Tone-deafness'?",
+      "options": [
+        "Neschopnost vidět barvy",
+        "Neschopnost cítit bolest",
+        "Neschopnost dobře zpívat nebo hrát na nástroj (hluchota k tónům)",
+        "Neschopnost cítit chutě"
+      ],
+      "answer": 2,
+      "explanation": "Tone-deafness znamená, že člověk nemá hudební sluch ('don't have a good ear')."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Anglický výraz pro barvoslepost je ___.",
+      "answer": "colour-blindness",
+      "explanation": "Colour-blindness je stav, kdy člověk nevidí některé barvy."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kterou část těla používáme pro hmat (touch)?",
+      "options": [
+        "Eyes (oči)",
+        "Ears (uši)",
+        "Skin/Hand (kůže/ruka)",
+        "Nose (nos)"
+      ],
+      "answer": 2,
+      "explanation": "Hmat je spojen s kůží a rukama."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Doplň chybějící slovo ve frázi: 'It reminds me ___ my holiday.'",
+      "answer": "of",
+      "explanation": "Správná vazba je 'reminds me of' (připomíná mi to)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamená fráze 'I can't stand the smell'?",
+      "options": [
+        "Ten zápach nemůžu vystát/nesnáším ho.",
+        "Ten zápach necítím.",
+        "Ten zápach se mi líbí.",
+        "Ten zápach je slabý."
+      ],
+      "answer": 0,
+      "explanation": "'Can't stand' vyjadřuje silný odpor nebo nelibost."
+    },
+    {
+      "type": "true_false",
+      "question": "Sloveso 'watch' (sledovat) se obvykle pojí se smyslem 'hearing' (sluch).",
+      "answer": false,
+      "explanation": "Sloveso 'watch' (např. Watch TV) se pojí se zrakem (sight)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pokud jídlo chutná jako stará zelenina, řekneme anglicky: 'It tastes ___ old vegetables.'",
+      "answer": "like",
+      "explanation": "Vazba 'tastes like' znamená 'chutná jako'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která aktivita je na obrázku spojena s relaxací a poslechem?",
+      "options": [
+        "Have a warm drink",
+        "Listen to music",
+        "Watch TV",
+        "Exercise"
+      ],
+      "answer": 1,
+      "explanation": "Listen to music (poslouchat hudbu) je aktivita zaměřená na sluch."
+    },
+    {
+      "type": "true_false",
+      "question": "Helen Keller byla slavná aktivistka, která byla hluchá i slepá.",
+      "answer": true,
+      "explanation": "Text uvádí, že Helen Keller 'was deaf and blind herself'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Podle textu pochází 75–95 % chuti jídla z našeho ___.",
+      "answer": "čichu",
+      "explanation": "Text uvádí: '75-95% of flavour of food comes from its smell'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaké povolání má James Bell?",
+      "options": [
+        "Kuchař",
+        "Hudebník",
+        "Pracuje pro parfumérskou společnost",
+        "Učitel"
+      ],
+      "answer": 2,
+      "explanation": "James Bell 'has worked for a perfume company for over twenty years'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamená slovo 'odour' v textu o Helen Keller?",
+      "options": [
+        "Hluk",
+        "Pach/Vůně",
+        "Barva",
+        "Dotek"
+      ],
+      "answer": 1,
+      "explanation": "Odour je synonymum pro smell (pach, vůně)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Synonymum pro slovo 'wonderful' (úžasný) uvedené v textu je ___.",
+      "answer": "incredible",
+      "explanation": "V cvičení 3 jsou 'incredible' a 'wonderful' (nebo amazing) uvedeny jako synonyma."
+    },
+    {
+      "type": "true_false",
+      "question": "Lucy Mangan dokáže rozeznat vůni růží.",
+      "answer": false,
+      "explanation": "Text říká: 'Journalist Lucy Mangan has never smelled the fragrance of a rose' protože je anosmická."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Předpřítomný čas (Present perfect) se tvoří pomocí slovesa 'have' a ___.",
+      "answer": "příčestí minulého",
+      "explanation": "Tvar je have/has + past participle (příčestí minulé / 3. tvar slovesa)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Příčestí minulé (3. tvar) od slovesa 'speak' je ___.",
+      "answer": "spoken",
+      "explanation": "Speak - Spoke - Spoken."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které slovo použijeme pro vyjádření délky trvání (např. 10 let)?",
+      "options": [
+        "Since",
+        "For",
+        "From",
+        "At"
+      ],
+      "answer": 1,
+      "explanation": "'For' se používá pro časový úsek (duration), např. 'for ten years'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které slovo použijeme pro konkrétní bod v čase (např. rok 2010)?",
+      "options": [
+        "Since",
+        "For",
+        "About",
+        "During"
+      ],
+      "answer": 0,
+      "explanation": "'Since' se používá od určitého bodu v čase, např. 'since 2010'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Příčestí minulé (3. tvar) od slovesa 'see' je ___.",
+      "answer": "seen",
+      "explanation": "See - Saw - Seen."
+    },
+    {
+      "type": "true_false",
+      "question": "Věta 'I have never visited Jamaica' je gramaticky správně.",
+      "answer": true,
+      "explanation": "Ano, používá správný tvar předpřítomného času se záporným 'never'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Příčestí minulé (3. tvar) od slovesa 'eat' je ___.",
+      "answer": "eaten",
+      "explanation": "Eat - Ate - Eaten."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaké je 'extrémní' přídavné jméno pro 'tired' (unavený)?",
+      "options": [
+        "Miserable",
+        "Exhausted",
+        "Furious",
+        "Terrifying"
+      ],
+      "answer": 1,
+      "explanation": "Exhausted znamená vyčerpaný (velmi unavený)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Extrémní přídavné jméno pro 'angry' (rozlobený) je ___.",
+      "answer": "furious",
+      "explanation": "Furious znamená zuřivý (velmi rozlobený)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamená přídavné jméno 'delicious'?",
+      "options": [
+        "Velmi hlučný",
+        "Velmi chutný (lahodný)",
+        "Velmi strašidelný",
+        "Velmi smutný"
+      ],
+      "answer": 1,
+      "explanation": "Delicious je extrémní forma slova tasty."
+    },
+    {
+      "type": "true_false",
+      "question": "'Miserable' je extrémní přídavné jméno pro 'happy' (šťastný).",
+      "answer": false,
+      "explanation": "Miserable znamená mizerný/nešťastný, je to extrém pro 'sad' (smutný), ne happy."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Durian je druh ___.",
+      "answer": "ovoce",
+      "explanation": "V textu se píše 'A durian is a type of fruit'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaké je extrémní přídavné jméno pro 'scary' (strašidelný)?",
+      "options": [
+        "Amazing",
+        "Terrifying",
+        "Disgusting",
+        "Weird"
+      ],
+      "answer": 1,
+      "explanation": "Terrifying znamená děsivý (velmi strašidelný)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Při otázce v předpřítomném čase 'Už jsi někdy...?' používáme slovo ___.",
+      "answer": "ever",
+      "explanation": "Otázka zní: 'Have you EVER...?'"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaká je správná krátká odpověď na otázku 'Have you seen it?'",
+      "options": [
+        "Yes, I do.",
+        "Yes, I did.",
+        "Yes, I have.",
+        "Yes, I am."
+      ],
+      "answer": 2,
+      "explanation": "Otázka začíná 'Have', takže krátká odpověď musí obsahovat 'have'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Doplň otázku: '___ you ever ridden a horse?'",
+      "answer": "Have",
+      "explanation": "Otázka v předpřítomném čase pro 2. osobu začíná 'Have'."
+    },
+    {
+      "type": "true_false",
+      "question": "Minulé příčestí (3. tvar) slovesa 'ride' je 'ridded'.",
+      "answer": false,
+      "explanation": "Správný tvar je 'ridden' (Ride - Rode - Ridden)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamená věta 'I have never been to Paris'?",
+      "options": [
+        "Právě jsem v Paříži.",
+        "Nikdy jsem nebyl v Paříži.",
+        "Pojedu do Paříže.",
+        "Byl jsem v Paříži včera."
+      ],
+      "answer": 1,
+      "explanation": "Předpřítomný čas se záporem 'never' vyjadřuje životní zkušenost, která se nestala."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Doplň frázi pro návrh: 'What do you ___ doing?'",
+      "answer": "fancy",
+      "explanation": "'What do you fancy doing?' znamená 'Do čeho bys měl chuť?'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak přeložíme návrh 'Why not try...?'",
+      "options": [
+        "Proč nezkusit...",
+        "Nikdy nezkoušej...",
+        "Musíš zkusit...",
+        "Zkusil jsi..."
+      ],
+      "answer": 0,
+      "explanation": "Jde o zdvořilý návrh 'Proč nezkusit/nezkusíme...'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pokud se nám návrh nelíbí, můžeme říct: 'It doesn't ___ much fun.'",
+      "answer": "sound",
+      "explanation": "'It doesn't sound much fun' znamená 'Nezní to moc zábavně'."
+    },
+    {
+      "type": "true_false",
+      "question": "Fráze 'I'd rather...' se používá, když něco chceme udělat raději než něco jiného.",
+      "answer": true,
+      "explanation": "'I'd rather' vyjadřuje preferenci."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "O jaké aktivitě mluví Louise a Grace v dialogu?",
+      "options": [
+        "Plavání (Swimming)",
+        "Bowling",
+        "Lyžování (Skiing)",
+        "Čtení (Reading)"
+      ],
+      "answer": 1,
+      "explanation": "Text zmiňuje 'Bowl You Over, the new bowling club'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pro zesílení extrémního přídavného jména (např. amazing) používáme slovo ___.",
+      "answer": "absolutely",
+      "explanation": "S extrémními adjektivy používáme 'absolutely', ne 'very'. Např. Absolutely amazing."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které slovo použijeme pro zesílení normálního přídavného jména (např. loud)?",
+      "options": [
+        "Absolutely",
+        "Very",
+        "Completely",
+        "Totally"
+      ],
+      "answer": 1,
+      "explanation": "S normálními adjektivy (base adjectives) používáme 'very' (např. very loud)."
+    },
+    {
+      "type": "true_false",
+      "question": "Můžeme říct 'very ancient'.",
+      "answer": false,
+      "explanation": "'Ancient' je extrémní přídavné jméno, proto bychom měli použít 'absolutely ancient', nikoliv 'very'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co je to 'bodhrán'?",
+      "options": [
+        "Irský tanec",
+        "Druh jídla",
+        "Jednostranný buben",
+        "Stará mince"
+      ],
+      "answer": 2,
+      "explanation": "Text definuje bodhrán jako 'a one-sided drum'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Newgrange je prehistorický ___ v Irsku.",
+      "answer": "památník",
+      "explanation": "Text popisuje Newgrange jako 'prehistoric monument'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaké počasí je typické pro Irsko podle textu?",
+      "options": [
+        "Pouze slunečno",
+        "Hodně sněhu",
+        "Hodně deště (potřebujete deštník)",
+        "Sucho"
+      ],
+      "answer": 2,
+      "explanation": "Text říká 'you might still need an umbrella' (možná budete stále potřebovat deštník)."
+    }
+  ]
+}
