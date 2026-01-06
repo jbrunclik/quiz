@@ -1,6 +1,12 @@
 {
   "quizzes": [
     {
+      "file": "viki-novovek-na-nasem-uzemi.json",
+      "topic": "České dějiny: Od Habsburků po vznik Československa (17. - 20. století)",
+      "questionCount": 52,
+      "dateAdded": "2026-01-06"
+    },
+    {
       "file": "bibi-english-2-sensations.json",
       "topic": "Angličtina - Smysly, Pocity a Předpřítomný čas (Unit 2: Sensations)",
       "questionCount": 47,

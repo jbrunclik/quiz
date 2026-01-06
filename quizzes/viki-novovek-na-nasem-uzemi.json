@@ -1,0 +1,425 @@
+{
+  "topic": "České dějiny: Od Habsburků po vznik Československa (17. - 20. století)",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Kdy se odehrála bitva na Bílé hoře?",
+      "options": [
+        "1618",
+        "1620",
+        "1648",
+        "1918"
+      ],
+      "answer": 1,
+      "explanation": "Bitva na Bílé hoře, která rozhodla o osudu českých zemí, se odehrála 8. listopadu 1620."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Po porážce na Bílé hoře bylo na Staroměstském náměstí popraveno ___ českých pánů.",
+      "answer": "27",
+      "explanation": "21. června 1621 bylo na Staroměstském náměstí popraveno 27 vůdců stavovského povstání."
+    },
+    {
+      "type": "true_false",
+      "question": "Po bitvě na Bílé hoře bylo v českých zemích povoleno pouze katolické náboženství.",
+      "answer": true,
+      "explanation": "Císař Ferdinand II. zavedl rekatolizaci a povolil pouze katolickou víru, nekatolíci museli odejít ze země."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Jan Amos Komenský, který musel odejít do exilu, je nazýván učitelem ___.",
+      "answer": "národů",
+      "explanation": "Díky svým pedagogickým dílům a metodám je Komenský celosvětově uznáván jako učitel národů."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se nazývala povinnost poddaných pracovat zdarma na panských polích?",
+      "options": [
+        "Desátek",
+        "Robota",
+        "Daně",
+        "Odpustek"
+      ],
+      "answer": 1,
+      "explanation": "Robota byla bezplatná práce, kterou museli poddaní vykonávat pro vrchnost."
+    },
+    {
+      "type": "true_false",
+      "question": "Jan Sladký Kozina byl vůdcem povstání Chodů.",
+      "answer": true,
+      "explanation": "Jan Sladký Kozina vedl Chody v boji za jejich stará práva a byl za to popraven v Plzni."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Velké dílny, kde se práce dělila na dílčí úkony a převažovala ruční výroba, se nazývaly ___.",
+      "answer": "manufaktury",
+      "explanation": "Manufaktury byly předchůdci továren, práce zde byla rozdělena mezi více dělníků."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který umělecký sloh je typický pro 17. a 18. století a vyznačuje se zdobností a citovostí?",
+      "options": [
+        "Gotika",
+        "Renesance",
+        "Baroko",
+        "Secese"
+      ],
+      "answer": 2,
+      "explanation": "Baroko je sloh typický pro dobu po třicetileté válce, vyznačuje se okázalostí, křivkami a snahou působit na city."
+    },
+    {
+      "type": "true_false",
+      "question": "Morové sloupy se stavěly jako poděkování za odvrácení morové epidemie.",
+      "answer": true,
+      "explanation": "Barokní morové sloupy zdobí náměstí mnoha měst jako dík za konec moru."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejznámějším českým barokním světcem, jehož sochy stojí na mnoha mostech, je Jan ___.",
+      "answer": "Nepomucký",
+      "explanation": "Jan Nepomucký je český zemský patron a jedna z nejčastějších soch barokní krajiny."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která panovnice zavedla povinnou školní docházku?",
+      "options": [
+        "Eliška Přemyslovna",
+        "Marie Terezie",
+        "Alžběta Bavorská (Sissi)",
+        "Anežka Česká"
+      ],
+      "answer": 1,
+      "explanation": "Marie Terezie zavedla v roce 1774 povinnou školní docházku pro děti od 6 do 12 let."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Syn Marie Terezie, císař Josef II., zrušil v roce 1781 ___.",
+      "answer": "nevolnictví",
+      "explanation": "Zrušení nevolnictví znamenalo, že se lidé mohli svobodně stěhovat, ženit se a dávat děti na studia."
+    },
+    {
+      "type": "true_false",
+      "question": "Toleranční patent Josefa II. zrovnoprávnil všechna náboženství včetně islámu a buddhismu.",
+      "answer": false,
+      "explanation": "Toleranční patent povoloval kromě katolictví pouze tři další křesťanská vyznání (luteránské, kalvínské a pravoslavné)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Za vlády Marie Terezie se začaly pěstovat nové plodiny, například ___.",
+      "answer": "brambory",
+      "explanation": "Brambory (zemáky) se staly důležitou potravinou a pomohly řešit hladomory."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Proč Marie Terezie nařídila stavět domy z cihel a kamene místo dřeva?",
+      "options": [
+        "Kvůli vzhledu",
+        "Kvůli ochraně před požáry",
+        "Kvůli nedostatku dřeva",
+        "Aby podpořila cihelny"
+      ],
+      "answer": 1,
+      "explanation": "Dřevěné stavby s doškovými střechami byly velmi náchylné k požárům, proto se zaváděly zděné domy."
+    },
+    {
+      "type": "true_false",
+      "question": "Wolfgang Amadeus Mozart navštívil Prahu a složil pro ni operu Don Giovanni.",
+      "answer": true,
+      "explanation": "Mozart Prahu miloval a ve Stavovském divadle měla premiéru jeho opera Don Giovanni."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Proces, kdy se čeští vzdělanci snažili obnovit český jazyk a kulturu, se nazývá národní ___.",
+      "answer": "obrození",
+      "explanation": "Národní obrození byla snaha vzkřísit český jazyk, který byl vytlačován němčinou."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdo napsal text k písni Kde domov můj, která se stala českou hymnou?",
+      "options": [
+        "František Škroup",
+        "Josef Kajetán Tyl",
+        "Karel Hynek Mácha",
+        "Bedřich Smetana"
+      ],
+      "answer": 1,
+      "explanation": "Text napsal Josef Kajetán Tyl pro hru Fidlovačka, hudbu složil František Škroup."
+    },
+    {
+      "type": "true_false",
+      "question": "Josef Jungmann napsal pětidílný Slovník česko-německý.",
+      "answer": true,
+      "explanation": "Jungmannovo dílo dokázalo, že čeština je stejně bohatý jazyk jako němčina."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vynález bratranců Veverkových, který usnadnil orbu, se nazývá ___.",
+      "answer": "ruchadlo",
+      "explanation": "Ruchadlo byl vylepšený pluh, který půdu nejen krájel, ale i obracel a drolil."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaký nový dopravní prostředek se objevil v 19. století a využíval parní stroj?",
+      "options": [
+        "Letadlo",
+        "Vlak",
+        "Automobil na benzín",
+        "Vznášedlo"
+      ],
+      "answer": 1,
+      "explanation": "První parní vlak přijel do českých zemí (na trati Vídeň-Břeclav-Brno) v roce 1839."
+    },
+    {
+      "type": "true_false",
+      "question": "V roce 1848 byla v českých zemích zrušena robota.",
+      "answer": true,
+      "explanation": "Revoluční rok 1848 přinesl definitivní zrušení roboty za náhradu."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Novinář a spisovatel, který byl za svou kritiku vlády vyhnán do Brixenu, se jmenoval Karel Havlíček ___.",
+      "answer": "Borovský",
+      "explanation": "K. H. Borovský byl symbolem odporu proti absolutismu a zakladatelem moderní české žurnalistiky."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se jmenoval spolek zaměřený na tělesné cvičení a vlastenectví založený Miroslavem Tyršem?",
+      "options": [
+        "Orel",
+        "Sokol",
+        "Lev",
+        "Skaut"
+      ],
+      "answer": 1,
+      "explanation": "Sokol byl založen v roce 1862 a jeho heslem bylo 'Tužme se!'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Národní divadlo bylo postaveno ze sbírek lidí a nese nápis Národ ___.",
+      "answer": "sobě",
+      "explanation": "Nápis 'Národ sobě' nad oponou připomíná, že si divadlo postavili sami Češi."
+    },
+    {
+      "type": "true_false",
+      "question": "Národní divadlo krátce po svém otevření v roce 1881 vyhořelo.",
+      "answer": true,
+      "explanation": "Divadlo vyhořelo v roce 1881, ale národ se znovu složil a bylo obnoveno v roce 1883."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdo byl vynálezcem obloukové lampy a průkopníkem elektrifikace v Čechách?",
+      "options": [
+        "František Křižík",
+        "Emil Škoda",
+        "Václav Laurin",
+        "Josef Ressel"
+      ],
+      "answer": 0,
+      "explanation": "František Křižík vynalezl obloukovou lampu a postavil první elektrickou dráhu v Praze."
+    },
+    {
+      "type": "fill_blank",
+      "question": "První automobil vyrobený v Kopřivnici v roce 1897 se jmenoval ___.",
+      "answer": "Präsident",
+      "explanation": "Präsident byl první automobil vyrobený v Rakousku-Uhersku."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který hudební skladatel složil cyklus symfonických básní Má vlast?",
+      "options": [
+        "Antonín Dvořák",
+        "Leoš Janáček",
+        "Bedřich Smetana",
+        "Bohuslav Martinů"
+      ],
+      "answer": 2,
+      "explanation": "Bedřich Smetana je autorem cyklu Má vlast, který obsahuje známou Vltavu."
+    },
+    {
+      "type": "true_false",
+      "question": "Umělecký sloh na přelomu 19. a 20. století, který používal rostlinné motivy, se nazývá secese.",
+      "answer": true,
+      "explanation": "Secese (Art Nouveau) je charakteristická vlnitými liniemi a přírodními motivy."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Záminkou pro začátek první světové války byl atentát na následníka trůnu Františka ___.",
+      "answer": "Ferdinanda",
+      "explanation": "Atentát v Sarajevu na Františka Ferdinanda d'Este v roce 1914 rozpoutal válku."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se nazývaly vojenské jednotky českých dobrovolníků bojujících za samostatnost během 1. světové války?",
+      "options": [
+        "Gardy",
+        "Legie",
+        "Čety",
+        "Sokoli"
+      ],
+      "answer": 1,
+      "explanation": "Československé legie bojovaly v Rusku, Francii a Itálii proti Rakousku-Uhersku a Německu."
+    },
+    {
+      "type": "true_false",
+      "question": "Tomáš Garrigue Masaryk usiloval o zachování Rakouska-Uherska.",
+      "answer": false,
+      "explanation": "Masaryk odešel do exilu, aby pracoval na rozbití Rakouska-Uherska a vzniku samostatného Československa."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Samostatná Československá republika byla vyhlášena 28. října roku ___.",
+      "answer": "1918",
+      "explanation": "28. říjen 1918 je dnem vzniku samostatného československého státu."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdo se stal prvním prezidentem Československa?",
+      "options": [
+        "Edvard Beneš",
+        "Karel Kramář",
+        "Tomáš Garrigue Masaryk",
+        "Milan Rastislav Štefánik"
+      ],
+      "answer": 2,
+      "explanation": "T. G. Masaryk byl zvolen prvním prezidentem a je nazýván 'Prezident Osvoboditel'."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Spolu s Masarykem a Benešem se o vznik státu zasloužil slovenský astronom a generál Milan Rastislav ___.",
+      "answer": "Štefánik",
+      "explanation": "Štefánik byl klíčovou postavou zahraničního odboje a organizace legií."
+    },
+    {
+      "type": "true_false",
+      "question": "První světová válka skončila vítězstvím Rakouska-Uherska a Německa.",
+      "answer": false,
+      "explanation": "Válka skončila porážkou Ústředních mocností (Rakousko-Uhersko, Německo) a rozpadem Rakouska-Uherska."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co to byla 'zákopová válka'?",
+      "options": [
+        "Válka vedená pouze na moři",
+        "Rychlá válka s mnoha pohyby vojsk",
+        "Válka, kde se fronta dlouho nehýbala a vojáci žili v zákopech",
+        "Válka vedená pouze v noci"
+      ],
+      "answer": 2,
+      "explanation": "První světová válka je typická tím, že se linie fronty dlouho neměnily a vojáci v zákopech trpěli zimou a nemocemi."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Organizace pro výchovu mládeže k pobytu v přírodě, založená v roce 1912 A. B. Svojsíkem, se jmenuje ___.",
+      "answer": "Skaut",
+      "explanation": "Český Junák (Skaut) byl založen podle britského vzoru a učil děti samostatnosti a čestnosti."
+    },
+    {
+      "type": "true_false",
+      "question": "Císař František Josef I. vládl Rakousku-Uhersku velmi krátce, jen 5 let.",
+      "answer": false,
+      "explanation": "František Josef I. vládl rekordně dlouho, od roku 1848 až do roku 1916 (68 let)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který malíř vyzdobil Foyer Národního divadla cyklem obrazů 'Vlast'?",
+      "options": [
+        "Josef Mánes",
+        "Mikoláš Aleš",
+        "Alfons Mucha",
+        "Karel Škréta"
+      ],
+      "answer": 1,
+      "explanation": "Mikoláš Aleš je autorem slavných lunet v Národním divadle."
+    },
+    {
+      "type": "fill_blank",
+      "question": "V bitvě u Zborova v roce 1917 se vyznamenaly československé ___.",
+      "answer": "legie",
+      "explanation": "Bitva u Zborova byla prvním velkým úspěchem československých legií v Rusku."
+    },
+    {
+      "type": "true_false",
+      "question": "Po zrušení nevolnictví se lidé z venkova začali hromadně stěhovat do měst za prací.",
+      "answer": true,
+      "explanation": "Průmyslová revoluce a zrušení nevolnictví způsobily velký příliv obyvatel do měst."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co je to 'Císařský sloh' (empír)?",
+      "options": [
+        "Sloh napodobující lidové stavby",
+        "Sloh inspirovaný antikou a Napoleonem",
+        "Sloh využívající pouze dřevo",
+        "Sloh plný křivek a zlata"
+      ],
+      "answer": 1,
+      "explanation": "Empír (z francouzského empire - císařství) vychází z antiky a byl oblíbený v době Napoleona."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Čeští vojáci v první světové válce často přebíhali k nepříteli, protože nechtěli bojovat za ___.",
+      "answer": "císaře",
+      "explanation": "Češi necítili loajalitu k Rakousku-Uhersku a nechtěli bojovat za zájmy Habsburků."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který vynález umožnil posílat zprávy na dálku pomocí drátů?",
+      "options": [
+        "Telegraf",
+        "Internet",
+        "Rádio",
+        "Televize"
+      ],
+      "answer": 0,
+      "explanation": "Telegraf byl v 19. století revolučním způsobem rychlé komunikace."
+    },
+    {
+      "type": "true_false",
+      "question": "První světová válka zasáhla i civilní obyvatelstvo hladem a bídou.",
+      "answer": true,
+      "explanation": "Zázemí trpělo nedostatkem potravin, byl zaveden přídělový systém a lidé hladověli."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sochař Josef Václav Myslbek vytvořil slavnou jezdeckou sochu svatého ___ na Václavském náměstí.",
+      "answer": "Václava",
+      "explanation": "Socha sv. Václava je jedním z nejznámějších symbolů Prahy a české státnosti."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co znamenalo zrušení roboty v roce 1848 pro sedláky?",
+      "options": [
+        "Museli odevzdat všechna pole",
+        "Nemuseli již pracovat zdarma pro vrchnost",
+        "Museli se odstěhovat do ciziny",
+        "Stali se majetkem krále"
+      ],
+      "answer": 1,
+      "explanation": "Zrušení roboty znamenalo konec nucené práce, sedláci se stali svobodnými hospodáři."
+    },
+    {
+      "type": "fill_blank",
+      "question": "V roce 1618 byli z oken Pražského hradu vyhozeni místodržící. Této události se říká pražská ___.",
+      "answer": "defenestrace",
+      "explanation": "Třetí pražská defenestrace odstartovala české stavovské povstání a třicetiletou válku."
+    },
+    {
+      "type": "true_false",
+      "question": "Barokní kostely jsou známé svou jednoduchostí a absencí výzdoby.",
+      "answer": false,
+      "explanation": "Opak je pravdou, barokní kostely jsou velmi bohatě zdobené zlatem, sochami a malbami."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kde vznikla první koněspřežná železnice na evropském kontinentě?",
+      "options": [
+        "Mezi Prahou a Vídní",
+        "Mezi Českými Budějovicemi a Lincem",
+        "Mezi Plzní a Mnichovem",
+        "Mezi Brnem a Ostravou"
+      ],
+      "answer": 1,
+      "explanation": "Koněspřežka České Budějovice – Linec sloužila především k dopravě soli."
+    }
+  ]
+}
