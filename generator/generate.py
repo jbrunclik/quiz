@@ -134,6 +134,80 @@ def get_images_from_directory(directory: Path) -> list[Path]:
     return sorted(set(images))
 
 
+def question_problem(q) -> str | None:
+    """Return a human-readable reason a question is invalid, or None if valid."""
+    if not isinstance(q, dict):
+        return "not an object"
+
+    question = q.get("question")
+    if not isinstance(question, str) or not question.strip():
+        return "missing question text"
+
+    q_type = q.get("type")
+    if q_type == "multiple_choice":
+        options = q.get("options")
+        if not isinstance(options, list) or len(options) < 2:
+            return "needs at least 2 options"
+        if not all(isinstance(o, str) and o.strip() for o in options):
+            return "options must be non-empty strings"
+        answer = q.get("answer")
+        # bool is a subclass of int, so reject it explicitly for an index.
+        if isinstance(answer, bool) or not isinstance(answer, int):
+            return "answer must be an option index"
+        if not 0 <= answer < len(options):
+            return f"answer index out of range (0..{len(options) - 1})"
+    elif q_type == "true_false":
+        if not isinstance(q.get("answer"), bool):
+            return "answer must be true or false"
+    elif q_type == "fill_blank":
+        answer = q.get("answer")
+        if not isinstance(answer, str) or not answer.strip():
+            return "answer must be a non-empty string"
+    else:
+        return f"unknown type: {q_type!r}"
+
+    return None
+
+
+def validate_quiz(quiz_data) -> dict:
+    """Validate the generated quiz, dropping malformed questions.
+
+    Returns a cleaned quiz dict. Exits if the payload is structurally
+    unusable (not an object, no topic, or no valid questions survive).
+    """
+    if not isinstance(quiz_data, dict):
+        print("Error: model did not return a JSON object.")
+        sys.exit(1)
+
+    topic = quiz_data.get("topic")
+    if not isinstance(topic, str) or not topic.strip():
+        print("Error: quiz is missing a 'topic' string.")
+        sys.exit(1)
+
+    raw_questions = quiz_data.get("questions")
+    if not isinstance(raw_questions, list) or not raw_questions:
+        print("Error: quiz has no 'questions' list.")
+        sys.exit(1)
+
+    valid = []
+    for i, q in enumerate(raw_questions):
+        problem = question_problem(q)
+        if problem:
+            print(f"  ! Skipping question {i + 1}: {problem}")
+            continue
+        valid.append(q)
+
+    if not valid:
+        print("Error: no valid questions in the model response.")
+        sys.exit(1)
+
+    dropped = len(raw_questions) - len(valid)
+    if dropped:
+        print(f"Dropped {dropped} malformed question(s).")
+
+    return {"topic": topic.strip(), "questions": valid}
+
+
 def generate_questions(topic_dir: Path, output_dir: Path) -> Path:
     """Generate quiz questions from images in the topic directory."""
     api_key = os.getenv("GEMINI_API_KEY")
@@ -170,25 +244,28 @@ def generate_questions(topic_dir: Path, output_dir: Path) -> Path:
         config=types.GenerateContentConfig(
             temperature=0.7,
             max_output_tokens=32768,
+            response_mime_type="application/json",
         ),
     )
 
-    response_text = response.text.strip()
-    if response_text.startswith("```json"):
-        response_text = response_text[7:]
-    if response_text.startswith("```"):
-        response_text = response_text[3:]
-    if response_text.endswith("```"):
-        response_text = response_text[:-3]
-    response_text = response_text.strip()
+    response_text = response.text
+    if not response_text:
+        print("Error: model returned no text (response may have been blocked).")
+        feedback = getattr(response, "prompt_feedback", None)
+        if feedback:
+            print(f"Prompt feedback: {feedback}")
+        sys.exit(1)
 
     try:
         quiz_data = json.loads(response_text)
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON response: {e}")
+        print("(The response may have been truncated; try lowering the page count.)")
         print("Raw response:")
         print(response_text)
         sys.exit(1)
+
+    quiz_data = validate_quiz(quiz_data)
 
     topic_name = topic_dir.name
     output_file = output_dir / f"{topic_name}.json"
