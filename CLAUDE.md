@@ -3,7 +3,7 @@
 ## Project Overview
 
 A quiz application for testing kids on various topics, consisting of:
-1. **Question Generator** (Python) - Uses Gemini 3 Pro to generate questions from textbook/notebook photos
+1. **Question Generator** (Python) - Uses Google Gemini to generate questions from textbook/notebook photos
 2. **Quiz App** (JavaScript) - Browser-based quiz runner hosted on GitHub Pages
 
 ## Project Structure

@@ -4,7 +4,7 @@ A simple quiz application for testing kids on various topics. Generate questions
 
 ## Features
 
-- **AI-Powered Question Generation**: Upload photos of textbooks or notebooks, and Gemini 3 Pro generates comprehensive quiz questions
+- **AI-Powered Question Generation**: Upload photos of textbooks or notebooks, and Google Gemini generates comprehensive quiz questions
 - **Multiple Question Types**: Multiple choice, true/false, and fill-in-the-blank
 - **Browser-Based Quiz**: Clean, responsive web interface - no installation needed for test-takers
 - **GitHub Pages Hosting**: Quizzes are automatically deployed and accessible via URL

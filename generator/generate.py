@@ -2,7 +2,7 @@
 """
 Quiz Question Generator
 
-Generates quiz questions from textbook/notebook images using Gemini 3 Pro.
+Generates quiz questions from textbook/notebook images using Google Gemini.
 """
 
 import argparse
@@ -292,7 +292,7 @@ def generate_questions(topic_dir: Path, output_dir: Path) -> Path:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate quiz questions from textbook/notebook images using Gemini 3 Pro"
+        description="Generate quiz questions from textbook/notebook images using Google Gemini"
     )
     parser.add_argument(
         "topic",
