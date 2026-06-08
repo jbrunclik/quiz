@@ -79,7 +79,7 @@ Questions are stored in `quizzes/<topic>.json`:
 
 ## Gemini API
 
-- Model: `gemini-3-pro-preview`
+- Model: `gemini-3.5-flash`
 - Used for multimodal analysis of textbook/notebook images
 - Generates comprehensive questions covering all material in images
 

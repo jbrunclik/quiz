@@ -1,0 +1,533 @@
+{
+  "topic": "Přírodověda a výchova k občanství pro základní školy",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Které z následujících prvků patří mezi neživou přírodu, která poskytuje základní podmínky pro život?",
+      "options": [
+        "Rostliny, živočichové a houby",
+        "Slunce, vzduch, voda, horniny a půda",
+        "Bakterie, viry a řasy",
+        "Stromy, hmyz a lidé"
+      ],
+      "answer": 1,
+      "explanation": "Neživá příroda poskytuje základní podmínky pro život, jako je teplo a světlo ze Slunce, vzduch, voda, nerosty, horniny a půda."
+    },
+    {
+      "type": "true_false",
+      "question": "Gravitace je přitažlivá síla, která působí pouze mezi Zemí a předměty na jejím povrchu, nikoli ve vesmíru.",
+      "answer": false,
+      "explanation": "Gravitace působí všude ve vesmíru a platí zde stejné přírodní zákony přitažlivosti jako na Zemi."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Zeměkouli obklopuje plynný obal, který nazýváme ___.",
+      "answer": "atmosféra",
+      "explanation": "Atmosféra je plynný obal Země, který chrání život před škodlivým zářením z vesmíru."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kdo jako první popsal gravitační zákonitost po pozorování padajícího jablka?",
+      "options": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Mikuláš Koperník"
+      ],
+      "answer": 2,
+      "explanation": "Isaac Newton popsal gravitační zákonitost poté, co sledoval pád jablka ze stromu a zamýšlel se nad tím, proč padá kolmo k zemi."
+    },
+    {
+      "type": "true_false",
+      "question": "Gravitační síla mezi dvěma tělesy se zvětšuje s jejich rostoucí hmotností.",
+      "answer": true,
+      "explanation": "Čím větší hmotnost tělesa mají, tím větší gravitační silou na sebe navzájem působí."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Na Měsíci je gravitační síla přibližně ___krát menší než na Zemi.",
+      "answer": "6",
+      "explanation": "Měsíc má menší hmotnost než Země, proto na něm působí 6krát menší gravitační síla."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak dlouho trvá jeden oběh Země kolem Slunce?",
+      "options": [
+        "24 hodin",
+        "30 dní",
+        "365 dní a čtvrt",
+        "366 dní"
+      ],
+      "answer": 2,
+      "explanation": "Země oběhne kolem Slunce za jeden rok, což odpovídá přesně 365 dnům a 6 hodinám (1/4 dne)."
+    },
+    {
+      "type": "true_false",
+      "question": "Přestupný rok nastává jednou za čtyři roky a má 366 dní.",
+      "answer": true,
+      "explanation": "Protože oběh Země trvá 365 a 1/4 dne, zbylé čtvrtiny dne se jednou za 4 roky spojí do jednoho celého dne navíc (29. února)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Zemská osa je vůči rovině oběhu kolem Slunce ___.",
+      "answer": "nakloněná",
+      "explanation": "Rotační osa Země není kolmá, ale nakloněná, což způsobuje střídání ročních období."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co způsobuje střídání dne a noci na Zemi?",
+      "options": [
+        "Oběh Země kolem Slunce",
+        "Otáčení Země kolem své osy",
+        "Pohyb Měsíce kolem Země",
+        "Změna intenzity slunečního záření"
+      ],
+      "answer": 1,
+      "explanation": "Střídání dne a noci je způsobeno rotací Země kolem své osy, která trvá přibližně 24 hodin."
+    },
+    {
+      "type": "true_false",
+      "question": "Intenzita slunečního záření dopadajícího na Zemi je největší v oblastech kolem pólů.",
+      "answer": false,
+      "explanation": "Největší intenzita slunečního záření je v oblastech kolem rovníku, kde paprsky dopadají kolmo."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pomyslná čára, která rozděluje Zemi na severní a jižní polokouli, se nazývá ___.",
+      "answer": "rovník",
+      "explanation": "Rovník je nejdelší rovnoběžka, která dělí Zemi na severní a jižní polokouli."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který den nastává na severní polokouli letní slunovrat?",
+      "options": [
+        "20. března",
+        "20. nebo 21. června",
+        "22. nebo 23. září",
+        "21. nebo 22. prosince"
+      ],
+      "answer": 1,
+      "explanation": "Letní slunovrat, kdy je nejdelší den a nejkratší noc, nastává kolem 20. či 21. června."
+    },
+    {
+      "type": "true_false",
+      "question": "Při podzimní rovnodennosti jsou den a noc na celé Zemi stejně dlouhé.",
+      "answer": true,
+      "explanation": "Rovnodennost znamená, že Slunce osvětluje rovník kolmo a den i noc trvají shodně 12 hodin."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Období, kdy začíná na severní polokouli zima a dny se začínají opět prodlužovat, se nazývá zimní ___.",
+      "answer": "slunovrat",
+      "explanation": "Zimní slunovrat (21. nebo 22. prosince) přináší nejkratší den v roce, po kterém se dny začínají prodlužovat."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které podnebné pásy rozlišujeme na Zemi podle množství dopadajícího slunečního tepla?",
+      "options": [
+        "Suchý, vlhký a mrazivý",
+        "Teplý, mírný a studený",
+        "Rovníkový, oceánský a vnitrozemský",
+        "Písčitý, lesní a ledový"
+      ],
+      "answer": 1,
+      "explanation": "Na Zemi rozlišujeme tři základní podnebné pásy: teplý (tropický), mírný a studený (polární)."
+    },
+    {
+      "type": "true_false",
+      "question": "Česká republika leží v teplém podnebném pásu.",
+      "answer": false,
+      "explanation": "Česká republika leží v mírném podnebném pásu, pro který je typické střídání čtyř ročních období."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Krajiny s trvalým ledem a sněhem v okolí pólů se nazývají polární ___.",
+      "answer": "pustiny",
+      "explanation": "Polární pustiny jsou oblasti věčného ledu a sněhu kolem severního a jižního pólu."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který typ krajiny je typický pro teplý podnebný pás a vyznačuje se obrovskou druhovou bohatostí rostlin i živočichů?",
+      "options": [
+        "Tundra",
+        "Step",
+        "Tropický deštný les",
+        "Tajga"
+      ],
+      "answer": 2,
+      "explanation": "Tropický deštný les roste v teplém a vlhkém rovníkovém pásmu a obsahuje největší množství rostlinných a živočišných druhů."
+    },
+    {
+      "type": "true_false",
+      "question": "Na savanách se střídají výrazná období dešťů a období sucha.",
+      "answer": true,
+      "explanation": "Savany jsou travnaté plochy teplého pásu, kde je klima rozděleno na období sucha a období vydatných dešťů."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vyprahlá krajina s minimem srážek, kde rostou kaktusy a žijí velbloudi, se nazývá ___.",
+      "answer": "poušť",
+      "explanation": "Pouště jsou extrémně suché oblasti teplého (nebo i mírného) pásu s velmi chudou vegetací."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se nazývá severský jehličnatý les, který tvoří souvislý pás v mírném podnebném pásu?",
+      "options": [
+        "Tundra",
+        "Savana",
+        "Tajga",
+        "Step"
+      ],
+      "answer": 2,
+      "explanation": "Tajga je označení pro chladné severské jehličnaté lesy, které se rozkládají v mírném pásu severní polokoule."
+    },
+    {
+      "type": "true_false",
+      "question": "Step je rozsáhlá travnatá plocha bez lesů, která se nachází v mírném podnebném pásu.",
+      "answer": true,
+      "explanation": "Stepi jsou travnaté oblasti mírného pásu s nedostatkem srážek pro růst stromů."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Krajina studeného pásu, kde půda rozmrzá jen v létě a rostou zde hlavně mechy a lišejníky, se nazývá ___.",
+      "answer": "tundra",
+      "explanation": "Tundra se nachází v subpolárních oblastech a vyznačuje se trvale zmrzlou půdou (permafrostem), která rozmrzá jen na povrchu."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který plyn tvoří největší část (přibližně 78 %) zemské atmosféry?",
+      "options": [
+        "Kyslík",
+        "Dusík",
+        "Oxid uhličitý",
+        "Ozon"
+      ],
+      "answer": 1,
+      "explanation": "Zemská atmosféra je složena převážně z dusíku (78 %), kyslík tvoří asi 21 %."
+    },
+    {
+      "type": "true_false",
+      "question": "Ozonová vrstva v atmosféře pohlcuje nebezpečné ultrafialové (UV) záření ze Slunce.",
+      "answer": true,
+      "explanation": "Ozonová vrstva funguje jako ochranný štít Země, který zachycuje většinu škodlivého UV záření."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Věda, která zkoumá procesy v atmosféře a předpovídá počasí, se nazývá ___.",
+      "answer": "meteorologie",
+      "explanation": "Meteorologie je vědní obor zabývající se atmosférou, jejím složením, vlastnostmi a jevy v ní, včetně počasí."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který přírodní jev v atmosféře udržuje na Zemi stabilní teplotu vhodnou pro život, ale jeho zesilování lidskou činností vede k globálnímu oteplování?",
+      "options": [
+        "Polární záře",
+        "Skleníkový efekt",
+        "Ozonová díra",
+        "Kyselý déšť"
+      ],
+      "answer": 1,
+      "explanation": "Skleníkový efekt přirozeně zadržuje teplo u zemského povrchu. Nadměrné vypouštění skleníkových plynů (CO2, metan) však tento efekt nebezpečně zesiluje."
+    },
+    {
+      "type": "true_false",
+      "question": "Voda se na Zemi vyskytuje pouze v kapalném a pevném skupenství.",
+      "answer": false,
+      "explanation": "Voda se vyskytuje ve třech skupenstvích: kapalném (voda), pevném (sníh, led) a plynném (vodní pára)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Změna skupenství vody z plynného (vodní pára) na kapalné se nazývá ___.",
+      "answer": "kondenzace",
+      "explanation": "Kondenzace (neboli zkapalnění) nastává, když se vodní pára ochladí a vytvoří kapičky vody (např. vznik oblaků)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kolik procent z celkového množství vody na Zemi tvoří slaná voda v oceánech a mořích?",
+      "options": [
+        "Asi 50 %",
+        "Asi 75 %",
+        "Asi 97 %",
+        "Asi 3 %"
+      ],
+      "answer": 2,
+      "explanation": "Slaná voda tvoří přibližně 97 % veškeré vody na Zemi. Sladká voda tvoří pouhá 3 %."
+    },
+    {
+      "type": "true_false",
+      "question": "Největší zásoby sladké vody na Zemi jsou uloženy v ledovcích.",
+      "answer": true,
+      "explanation": "Většina sladké vody na Zemi (téměř 70 % ze sladkovodních zásob) je vázána v ledovcích v polárních oblastech."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Základní stavební jednotkou hornin jsou ___.",
+      "answer": "nerosty",
+      "explanation": "Horniny jsou neživé přírodniny složené z jednoho nebo více druhů nerostů (minerálů)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které tři nerosty tvoří horninu žulu?",
+      "options": [
+        "Zlato, stříbro a měď",
+        "Křemen, živec a slída",
+        "Vápenec, mramor a sádrovec",
+        "Magnetovec, bauxit a halit"
+      ],
+      "answer": 1,
+      "explanation": "Žula (granit) je hlubinná vyvřelá hornina složená z křemene, živce a slídy."
+    },
+    {
+      "type": "true_false",
+      "question": "Mramor je přeměněná hornina, která vznikla z vápence.",
+      "answer": true,
+      "explanation": "Působením vysokého tlaku a teploty v zemské kůře se vápenec přeměňuje na mramor."
+    },
+    {
+      "type": "fill_blank",
+      "question": "V oblastech tvořených vápencem vznikají rozpouštěním horniny jeskyně a propasti, což označujeme jako ___ jevy.",
+      "answer": "krasové",
+      "explanation": "Krasové jevy vznikají chemickým působením vody na snadno rozpustný vápenec."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které z následujících paliv vzniklo v dávné minulosti zuhelnatěním odumřelých pravěkých stromů bez přístupu vzduchu?",
+      "options": [
+        "Ropa",
+        "Černé a hnědé uhlí",
+        "Zemní plyn",
+        "Uranová ruda"
+      ],
+      "answer": 1,
+      "explanation": "Uhlí vzniklo z odumřelých stromů a kapradin v pravěkých močálech pod tlakem nadloží a bez přístupu kyslíku."
+    },
+    {
+      "type": "true_false",
+      "question": "Ropa a zemní plyn jsou obnovitelné zdroje energie.",
+      "answer": false,
+      "explanation": "Ropa a zemní plyn patří mezi fosilní paliva a jejich zásoby jsou vyčerpatelné (neobnovitelné)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejúrodnější část půdy, která vzniká rozkladem zbytků rostlin a živočichů, se nazývá ___.",
+      "answer": "humus",
+      "explanation": "Humus dodává půdě tmavou barvu a obsahuje živiny nezbytné pro růst rostlin."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se nazývá proces, při kterém se pevné horniny vlivem vody, vzduchu, teplotních změn a organismů rozpadají na menší části?",
+      "options": [
+        "Eroze",
+        "Zvětrávání",
+        "Usazování",
+        "Vyvření"
+      ],
+      "answer": 1,
+      "explanation": "Zvětrávání je rozpad hornin na menší úlomky, které tvoří základ pro vznik půdy."
+    },
+    {
+      "type": "true_false",
+      "question": "Měsíc je přirozená družice Země, která obíhá kolem naší planety.",
+      "answer": true,
+      "explanation": "Měsíc je jediným známým přirozeným satelitem (družicí) planety Země."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fáze Měsíce, kdy vidíme celou jeho osvětlenou polokouli jako jasný kruh, se nazývá ___.",
+      "answer": "úplněk",
+      "explanation": "Při úplňku stojí Země mezi Sluncem a Měsícem, takže vidíme celou osvětlenou stranu Měsíce."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které planety naší Sluneční soustavy řadíme mezi tzv. kamenné planety?",
+      "options": [
+        "Jupiter, Saturn, Uran, Neptun",
+        "Merkur, Venuše, Země, Mars",
+        "Země, Mars, Jupiter, Saturn",
+        "Merkur, Země, Uran, Pluto"
+      ],
+      "answer": 1,
+      "explanation": "Vnitřní planety Sluneční soustavy (Merkur, Venuše, Země, Mars) mají pevný kamenný povrch."
+    },
+    {
+      "type": "true_false",
+      "question": "Slunce je obrovská žhavá plynná koule, která si sama vyrábí energii.",
+      "answer": true,
+      "explanation": "Slunce je hvězda střední velikosti, v jejímž nitru probíhá termonukleární fúze, která produkuje světlo a teplo."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Největší planetou naší Sluneční soustavy je ___.",
+      "answer": "Jupiter",
+      "explanation": "Jupiter je obří plynná planeta a je největším tělesem obíhajícím kolem Slunce."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které lidské orgány jsou chráněny hrudním košem?",
+      "options": [
+        "Mozek a mícha",
+        "Srdce a plíce",
+        "Žaludek a střeva",
+        "Ledviny a játra"
+      ],
+      "answer": 1,
+      "explanation": "Hrudní koš tvořený žebry, hrudní kostí a páteří chrání životně důležité orgány – srdce a plíce."
+    },
+    {
+      "type": "true_false",
+      "question": "Páteř člověka se skládá z jednotlivých kostí zvaných obratle.",
+      "answer": true,
+      "explanation": "Páteř je složena z obratlů, mezi nimiž jsou chrupavčité ploténky zajišťující ohebnost."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Místo pevného nebo pohyblivého spojení dvou či více kostí se nazývá ___.",
+      "answer": "kloub",
+      "explanation": "Klouby umožňují pohyblivé spojení kostí a tím i pohyb celého těla."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který orgán pohání krev v našem těle a funguje jako neúnavná pumpa?",
+      "options": [
+        "Plíce",
+        "Srdce",
+        "Játra",
+        "Ledviny"
+      ],
+      "answer": 1,
+      "explanation": "Srdce je dutý sval, který se rytmicky stahuje a vytlačuje krev do cévního systému."
+    },
+    {
+      "type": "true_false",
+      "question": "Tepny vedou krev směrem k srdci, zatímco žíly vedou krev od srdce.",
+      "answer": false,
+      "explanation": "Je to přesně naopak: tepny vedou krev od srdce pod vysokým tlakem, žíly vedou krev zpět k srdci."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Při silném tepenném krvácení je nutné okamžitě stlačit ránu a přiložit ___ obvaz.",
+      "answer": "tlakový",
+      "explanation": "Tlakový obvaz slouží k zastavení silného krvácení stlačením poškozené cévy."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který plyn z vdechnutého vzduchu přechází v plicích do krve?",
+      "options": [
+        "Dusík",
+        "Kyslík",
+        "Oxid uhličitý",
+        "Vodík"
+      ],
+      "answer": 1,
+      "explanation": "Při dýchání tělo přijímá kyslík, který je nezbytný pro uvolňování energie v buňkách."
+    },
+    {
+      "type": "true_false",
+      "question": "Vzduch prochází při nadechnutí ústy nebo nosem nejprve do průdušnice a poté do hrtanu.",
+      "answer": false,
+      "explanation": "Vzduch prochází nejprve hrtanem (kde jsou hlasivky) a až poté pokračuje do průdušnice."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Trávicí trubice začíná ústní dutinou a končí ___.",
+      "answer": "konečníkem",
+      "explanation": "Trávicí soustava začíná ústy, kde se potrava rozmělňuje, a nestrávené zbytky odcházejí konečníkem."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který orgán produkuje žluč a funguje jako hlavní chemická laboratoř těla, kde se zneškodňují jedovaté látky?",
+      "options": [
+        "Žaludek",
+        "Slinivka břišní",
+        "Játra",
+        "Slezina"
+      ],
+      "answer": 2,
+      "explanation": "Játra jsou největší žlázou v těle. Čistí krev a produkují žluč, která pomáhá trávit tuky."
+    },
+    {
+      "type": "true_false",
+      "question": "Většina živin se z natrávené potravy vstřebává do krve v tlustém střevě.",
+      "answer": false,
+      "explanation": "K hlavnímu vstřebávání živin dochází v tenkém střevě. V tlustém střevě se vstřebává hlavně voda a minerální látky."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Kůže chrání tělo před vnějšími vlivy a pomáhá udržovat stálou tělesnou teplotu pomocí vylučování ___.",
+      "answer": "potu",
+      "explanation": "Odpařováním potu z povrchu kůže se tělo ochlazuje při přehřátí nebo námaze."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co tvoří nervovou soustavu člověka?",
+      "options": [
+        "Srdce, cévy a krev",
+        "Mozek, mícha a nervy",
+        "Plíce, průdušky a bránice",
+        "Kosti, klouby a svaly"
+      ],
+      "answer": 1,
+      "explanation": "Nervová soustava se skládá z ústřední části (mozek a mícha) a obvodových nervů, které vedou signály po celém těle."
+    },
+    {
+      "type": "true_false",
+      "question": "Hormony jsou chemické látky přenášené krví, které řídí činnost různých orgánů.",
+      "answer": true,
+      "explanation": "Hormonální soustava vylučuje hormony přímo do krve, čímž pomáhá regulovat růst, vývoj a metabolismus."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Mužská pohlavní buňka se nazývá ___.",
+      "answer": "spermie",
+      "explanation": "Spermie je samčí pohlavní buňka, která je schopná oplodnit vajíčko."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaké je telefonní číslo na bezplatnou Linku bezpečí pro děti a mládež?",
+      "options": [
+        "150",
+        "158",
+        "116 111",
+        "112"
+      ],
+      "answer": 2,
+      "explanation": "Linka bezpečí pro děti a mládež funguje na bezplatném čísle 116 111."
+    },
+    {
+      "type": "true_false",
+      "question": "Šikana je opakované a záměrné ubližování slabšímu jedinci, kterému se oběť neumí bránit.",
+      "answer": true,
+      "explanation": "Šikana se vyznačuje záměrností, opakovaností a nerovnováhou sil mezi agresorem a obětí."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pokud jsi svědkem šikany nebo se sám staneš její obětí, musíš o tom co nejdříve říct ___ osobě.",
+      "answer": "dospělé",
+      "explanation": "Svěření se dospělému (rodiči, učiteli, školnímu psychologovi) je klíčovým krokem k zastavení šikany."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které z následujících pravidel je nejdůležitější pro bezpečné používání internetu?",
+      "options": [
+        "Posílat své fotky každému, kdo o ně požádá",
+        "Nikdy nesdělovat cizím lidem svá hesla, adresu a osobní údaje",
+        "Věřit všemu, co lidé na internetu píší",
+        "Sjednávat si schůzky s lidmi, které znáš jen z chatu"
+      ],
+      "answer": 1,
+      "explanation": "Ochrana osobních údajů a hesel je základním pravidlem bezpečnosti v kyberprostoru."
+    },
+    {
+      "type": "true_false",
+      "question": "Při popálení kůže je nejlepší postižené místo ihned namazat mastným krémem nebo sádlem.",
+      "answer": false,
+      "explanation": "Popálené místo se musí okamžitě chladit čistou studenou vodou. Tuky by teplo v kůži uzavřely a popáleninu zhoršily."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Jednotné evropské číslo tísňového volání je ___.",
+      "answer": "112",
+      "explanation": "Číslo 112 lze volat zdarma z jakéhokoli telefonu v celé EU pro spojení se všemi záchrannými složkami."
+    }
+  ]
+}

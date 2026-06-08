@@ -165,9 +165,9 @@ def generate_questions(topic_dir: Path, output_dir: Path) -> Path:
 
     contents.append(types.Part.from_text(text=GENERATION_PROMPT))
 
-    print("\nSending to Gemini 3 Pro for analysis...")
+    print("\nSending to Gemini 3.5 Flash for analysis...")
     response = client.models.generate_content(
-        model="gemini-3-pro-preview",
+        model="gemini-3.5-flash",
         contents=contents,
         config=types.GenerateContentConfig(
             temperature=0.7,

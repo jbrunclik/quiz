@@ -1,0 +1,437 @@
+{
+  "topic": "Evropa – náš domov, sousedé a role ve světě",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Kolik milionů obyvatel žije přibližně v celé Evropě podle informací v učebnici?",
+      "options": [
+        "Cca 500 milionů",
+        "Cca 620 milionů",
+        "Cca 748 milionů",
+        "Cca 900 milionů"
+      ],
+      "answer": 2,
+      "explanation": "V textu na straně 29 se uvádí, že v Evropě žije cca 748 milionů lidí."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vynález knihtisku, který způsobil revoluci v šíření informací, je na obrázku na straně 29 označen písmenem ___.",
+      "answer": "e",
+      "explanation": "Obrázek 'e' znázorňuje postavičku myšáka čtoucího tištěnou knihu u hromady knih, což odkazuje na vynález knihtisku."
+    },
+    {
+      "type": "true_false",
+      "question": "Skautské hnutí, zobrazené na obrázku 'a' na straně 29, patří mezi významné evropské společenské kořeny.",
+      "answer": true,
+      "explanation": "Ano, skautské hnutí vzniklo v Evropě (ve Velké Británii) a je jedním z příkladů společných kořenů a aktivit evropské mládeže."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který oceán omývá severní břehy Evropy?",
+      "options": [
+        "Atlantský oceán",
+        "Severní ledový oceán",
+        "Indický oceán",
+        "Tichý oceán"
+      ],
+      "answer": 1,
+      "explanation": "Severní břehy Evropy omývá Severní ledový oceán, jak je vidět na obecně zeměpisné mapě."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Tradiční a zdravá strava typická pro jižní Evropu, bohatá na olivy, ryby a zeleninu, se nazývá ___ strava.",
+      "answer": "středomořská",
+      "explanation": "Na straně 30 je vyobrazena a popsána 'středomořská strava' jako typický prvek jihoevropského životního stylu."
+    },
+    {
+      "type": "true_false",
+      "question": "Pyrenejský poloostrov se nachází v severní části Evropy.",
+      "answer": false,
+      "explanation": "Pyrenejský poloostrov (Španělsko, Portugalsko) leží na jihozápadě Evropy, nikoli na severu."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který z následujících států je příkladem evropské monarchie?",
+      "options": [
+        "Česká republika",
+        "Německo",
+        "Španělsko",
+        "Polsko"
+      ],
+      "answer": 2,
+      "explanation": "Španělsko je království (monarchie), zatímco Česko, Německo a Polsko jsou republiky."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Stát, který je složen z několika samosprávných zemí či regionů s vlastní vládou, se nazývá ___ stát.",
+      "answer": "spolkový",
+      "explanation": "Spolkový neboli federativní stát (např. Německo nebo Rakousko) se skládá z více členských států s vlastními vládami."
+    },
+    {
+      "type": "true_false",
+      "question": "Vatikán je příkladem evropské monarchie, kde hlavou státu je papež.",
+      "answer": true,
+      "explanation": "Vatikán je teokratická absolutní monarchie, v jejímž čele stojí papež."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které plemeno skotu je typické pro tradiční tyrolské horské zemědělství?",
+      "options": [
+        "Český strakatý skot",
+        "Tyrolský šedý skot",
+        "Charolais",
+        "Angus"
+      ],
+      "answer": 1,
+      "explanation": "Na straně 32 je vyobrazen 'tyrolský šedý skot' jako typické plemeno pro horské oblasti Alp."
+    },
+    {
+      "type": "fill_blank",
+      "question": "V nejteplejších oblastech Evropy se pěstují olivy na stromech zvaných ___ evropský.",
+      "answer": "olivovník",
+      "explanation": "Olivovník evropský je typický pro středomořské oblasti a pěstuje se pro olivy a olivový olej."
+    },
+    {
+      "type": "true_false",
+      "question": "Většina obyvatel Evropy dnes žije na venkově a pracuje v zemědělství.",
+      "answer": false,
+      "explanation": "Podle grafu na straně 32 žije většina obyvatel Evropy ve městech."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kde se v Evropě nacházejí nejvýznamnější ložiska pro těžbu ropy a zemního plynu?",
+      "options": [
+        "V Černém moři",
+        "V Severním moři",
+        "V Baltském moři",
+        "V Bodamském jezeře"
+      ],
+      "answer": 1,
+      "explanation": "Těžba ropy a zemního plynu probíhá ve velkém měřítku v Severním moři, jak ukazuje text a fotografie na straně 33."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pobřežní větrné elektrárny jsou významným zdrojem obnovitelné energie například v ___.",
+      "answer": "Dánsku",
+      "explanation": "Učebnice na straně 33 uvádí jako příklad pobřežních větrných elektráren Dánsko."
+    },
+    {
+      "type": "true_false",
+      "question": "Přehradní nádrže v Alpách (např. v Rakousku) slouží k výrobě elektrické energie z vody.",
+      "answer": true,
+      "explanation": "Ano, vodní elektrárny v alpských přehradách jsou klíčovým zdrojem čisté energie v Rakousku."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která památka UNESCO se nachází ve Velké Británii a skládá se z obřích kamenných kruhů?",
+      "options": [
+        "Mont St. Michel",
+        "Stonehenge",
+        "Carcassonne",
+        "Belémská věž"
+      ],
+      "answer": 1,
+      "explanation": "Stonehenge (číslo 6 na mapě dědictví) leží v jižní Anglii a je tvořen megalitickými kameny."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Slavná jeskyně s pravěkými malbami zvířat ve Španělsku se nazývá ___.",
+      "answer": "Altamira",
+      "explanation": "Jeskyně Altamira (číslo 2) ve Španělsku je světoznámá svými paleolitickými nástěnnými malbami."
+    },
+    {
+      "type": "true_false",
+      "question": "Giant's Causeway (Obrův chodník) v Severním Irsku je přírodní památka tvořená čedičovými sloupy.",
+      "answer": true,
+      "explanation": "Ano, tato památka (číslo 5) vznikla sopečnou činností a tvoří ji tisíce do sebe zapadajících čedičových sloupů."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které starověké římské město bylo zničeno výbuchem sopky Vesuv a dnes je významným archeologickým nalezištěm?",
+      "options": [
+        "Atény",
+        "Pompeje",
+        "Mykény",
+        "Dubrovník"
+      ],
+      "answer": 1,
+      "explanation": "Archeologické naleziště v Pompejích (číslo 15) ukazuje zachovalé římské město po katastrofálním výbuchu sopky Vesuv."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Národní park Plitvická jezera, známý svými terasovitými krasovými jezery a vodopády, leží v ___.",
+      "answer": "Chorvatsku",
+      "explanation": "Plitvická jezera (číslo 21) jsou nejznámějším národním parkem v Chorvatsku."
+    },
+    {
+      "type": "true_false",
+      "question": "Západonorské fjordy jsou zapsány na Seznamu světového dědictví UNESCO díky své jedinečné ledovcové krajině.",
+      "answer": true,
+      "explanation": "Ano, západonorské fjordy (číslo 17) patří mezi nejkrásnější a nejhlubší fjordy světa chráněné UNESCO."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Které dvě horské soustavy tvoří hlavní evropské pohoří v oblasti našich sousedů?",
+      "options": [
+        "Ural a Kavkaz",
+        "Alpy a Karpaty",
+        "Pyreneje a Apeniny",
+        "Skandinávské pohoří a Harz"
+      ],
+      "answer": 1,
+      "explanation": "Alpy a Karpaty jsou hlavními pohořími této oblasti, jak je uvedeno na straně 37."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Největší stepní jezero ve střední Evropě, které leží v Maďarsku, se jmenuje ___.",
+      "answer": "Balaton",
+      "explanation": "Balaton (Blatenské jezero) je největší jezero v Maďarsku a oblíbené rekreační středisko."
+    },
+    {
+      "type": "true_false",
+      "question": "Řeka Rýn protéká územím České republiky.",
+      "answer": false,
+      "explanation": "Řeka Rýn neprotéká Českou republikou; protéká západní Evropou (Německo, Švýcarsko, Nizozemsko atd.)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaká je oficiální měna Slovenské republiky?",
+      "options": [
+        "Slovenská koruna",
+        "Euro",
+        "Zlotý",
+        "Hřivna"
+      ],
+      "answer": 1,
+      "explanation": "Slovensko přijalo v roce 2009 jako svou oficiální měnu euro."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Hlavním městem Slovenska je ___.",
+      "answer": "Bratislava",
+      "explanation": "Bratislava je hlavní a největší město Slovenské republiky, ležící na řece Dunaj."
+    },
+    {
+      "type": "true_false",
+      "question": "Nejvyšším pohořím Slovenska jsou Vysoké Tatry s nejvyšším vrcholem Gerlachovským štítem.",
+      "answer": true,
+      "explanation": "Ano, Vysoké Tatry jsou nejvyšší slovenské pohoří a Gerlachovský štít (2655 m) je jejich nejvyšším bodem."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který tradiční slovenský dřevěný dechový nástroj je zapsán na seznamu UNESCO?",
+      "options": [
+        "Gajdy",
+        "Fujara",
+        "Cimbál",
+        "Píšťalka"
+      ],
+      "answer": 1,
+      "explanation": "Fujara a její hudba jsou zapsány na seznamu nehmotného kulturního dědictví UNESCO."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Hlavním městem Rakouska je ___.",
+      "answer": "Vídeň",
+      "explanation": "Vídeň (Wien) je hlavní město Rakouska a zároveň jedna z jeho spolkových zemí."
+    },
+    {
+      "type": "true_false",
+      "question": "Rakousko je stejně jako Česká republika unitárním státem.",
+      "answer": false,
+      "explanation": "Rakousko je spolková republika (federace) složená z 9 spolkových zemí."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se jmenuje nejvyšší hora Rakouska ležící v pohoří Vysoké Taury?",
+      "options": [
+        "Zugspitze",
+        "Sněžka",
+        "Grossglockner",
+        "Mont Blanc"
+      ],
+      "answer": 2,
+      "explanation": "Grossglockner (3798 m) je nejvyšší hora Rakouska."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Velké jezero na hranicích Německa, Rakouska a Švýcarska se jmenuje ___ jezero.",
+      "answer": "Bodamské",
+      "explanation": "Bodamské jezero (Bodensee) leží na hranicích těchto tří států a protéká jím řeka Rýn."
+    },
+    {
+      "type": "true_false",
+      "question": "V Rakousku je úředním jazykem němčina.",
+      "answer": true,
+      "explanation": "Ano, úředním jazykem v Rakousku je němčina."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který německý hrad inspiroval Walta Disneyho k vytvoření zámku Šípkové Růženky?",
+      "options": [
+        "Wartburg",
+        "Neuschwanstein",
+        "Hohenzollern",
+        "Moritzburg"
+      ],
+      "answer": 1,
+      "explanation": "Pohádkový zámek Neuschwanstein v Bavorsku posloužil jako předloha pro slavný Disneyho zámek."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejvyšší hora Německa, ležící v Alpách na hranici s Rakouskem, se jmenuje ___.",
+      "answer": "Zugspitze",
+      "explanation": "Zugspitze (2963 m) je nejvyšší hora Německa."
+    },
+    {
+      "type": "true_false",
+      "question": "Německo je nejlidnatějším státem, který sousedí s Českou republikou.",
+      "answer": true,
+      "explanation": "Ano, Německo má přes 83 milionů obyvatel a je naším nejlidnatějším sousedem."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaká je úřední měna v Polsku?",
+      "options": [
+        "Euro",
+        "Polský zlotý",
+        "Polská koruna",
+        "Hřivna"
+      ],
+      "answer": 1,
+      "explanation": "Polsko nepoužívá euro, jeho národní měnou je polský zlotý."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Hlavním městem Polska je ___.",
+      "answer": "Varšava",
+      "explanation": "Varšava (Warszawa) je hlavní a největší město Polska."
+    },
+    {
+      "type": "true_false",
+      "question": "Největší cihlový hrad na světě, který leží v Polsku, se jmenuje Malbork.",
+      "answer": true,
+      "explanation": "Ano, křižácký hrad Malbork v Polsku je považován za největší gotickou cihlovou stavbu na světě."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která instituce EU navrhuje nové evropské předpisy a zákony?",
+      "options": [
+        "Evropský parlament",
+        "Evropská komise",
+        "Rada EU",
+        "Soudní dvůr EU"
+      ],
+      "answer": 1,
+      "explanation": "Evropská komise má jako jediná právo navrhovat nové evropské zákony (legislativní iniciativu)."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Hymnou Evropské unie je melodie z Beethovenovy 9. symfonie s názvem Óda na ___.",
+      "answer": "radost",
+      "explanation": "Evropskou hymnou je 'Óda na radost' od Ludwiga van Beethovena."
+    },
+    {
+      "type": "true_false",
+      "question": "Schengenský prostor umožňuje občanům členských států cestovat přes hranice bez hraničních kontrol.",
+      "answer": true,
+      "explanation": "Ano, podstatou Schengenské dohody je odstranění vnitřních hraničních kontrol mezi zúčastněnými státy."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Na jak dlouhé období jsou voleni poslanci do Evropského parlamentu?",
+      "options": [
+        "Na 4 roky",
+        "Na 5 let",
+        "Na 6 let",
+        "Na 3 roky"
+      ],
+      "answer": 1,
+      "explanation": "Volby do Evropského parlamentu se konají každých 5 let."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vojenská aliance, která zajišťuje kolektivní obranu svých členů v Severní Americe a Evropě, se označuje zkratkou ___.",
+      "answer": "NATO",
+      "explanation": "NATO (Severoatlantická aliance) je mezinárodní vojenský pakt založený na principu kolektivní obrany."
+    },
+    {
+      "type": "true_false",
+      "question": "Česká republika není členem Organizace spojených národů (OSN).",
+      "answer": false,
+      "explanation": "Česká republika je aktivním členem OSN od svého vzniku v roce 1993 (a dříve jako Československo)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která odborná organizace OSN se zaměřuje na ochranu dětí, jejich zdraví a vzdělání?",
+      "options": [
+        "WHO",
+        "UNESCO",
+        "UNICEF",
+        "NATO"
+      ],
+      "answer": 2,
+      "explanation": "UNICEF je Dětský fond OSN, který pomáhá dětem po celém světě."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Proces propojování světa v oblasti obchodu, kultury a komunikace se nazývá ___.",
+      "answer": "globalizace",
+      "explanation": "Globalizace je proces, díky kterému se svět stává propojenějším a závislejším."
+    },
+    {
+      "type": "true_false",
+      "question": "Skleníkový efekt je přirozený proces, který je však zesilován lidskou činností, zejména spalováním fosilních paliv.",
+      "answer": true,
+      "explanation": "Ano, lidská aktivita (spalování uhlí, ropy) zvyšuje koncentraci skleníkových plynů a vede k globálnímu oteplování."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který z následujících zdrojů energie nepatří mezi obnovitelné zdroje?",
+      "options": [
+        "Sluneční energie",
+        "Větrná energie",
+        "Uhlí",
+        "Biomasa"
+      ],
+      "answer": 2,
+      "explanation": "Uhlí je fosilní palivo a patří mezi neobnovitelné zdroje energie."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Zamezení plýtvání zdroji tak, aby zůstaly zachovány i pro budoucí generace, je podstatou ___ rozvoje.",
+      "answer": "udržitelného",
+      "explanation": "Udržitelný rozvoj (udržitelnost) je způsob rozvoje, který uspokojuje potřeby současnosti bez ohrožení budoucích generací."
+    },
+    {
+      "type": "true_false",
+      "question": "Hoaxy a fake news jsou pravdivé zprávy, které média záměrně tají před veřejností.",
+      "answer": false,
+      "explanation": "Hoaxy a fake news jsou lživé, podvodné nebo zkreslené zprávy šířené s cílem oklamat čtenáře."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Která řeka neprotéká územím Slovenska?",
+      "options": [
+        "Váh",
+        "Dunaj",
+        "Hron",
+        "Odra"
+      ],
+      "answer": 3,
+      "explanation": "Odra protéká Českem, Polskem a Německem, Slovenskem neprotéká."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Tradiční polská přírodní památka, která je posledním nížinným pralesem v Evropě, se jmenuje ___ prales.",
+      "answer": "Bělověžský",
+      "explanation": "Bělověžský prales (Białowieża) leží na hranici Polska a Běloruska a žijí zde zubři."
+    },
+    {
+      "type": "true_false",
+      "question": "Většina evropských států má dnes demokratické zřízení.",
+      "answer": true,
+      "explanation": "Ano, naprostá většina evropských států jsou demokratické republiky nebo konstituční monarchie."
+    }
+  ]
+}

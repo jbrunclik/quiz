@@ -1,6 +1,18 @@
 {
   "quizzes": [
     {
+      "file": "prirodoveda-5.json",
+      "topic": "Přírodověda a výchova k občanství pro základní školy",
+      "questionCount": 66,
+      "dateAdded": "2026-06-08"
+    },
+    {
+      "file": "vlastiveda-5.json",
+      "topic": "Evropa – náš domov, sousedé a role ve světě",
+      "questionCount": 54,
+      "dateAdded": "2026-06-08"
+    },
+    {
       "file": "viki-novovek-na-nasem-uzemi.json",
       "topic": "České dějiny: Od Habsburků po vznik Československa (17. - 20. století)",
       "questionCount": 52,
