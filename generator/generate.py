@@ -24,6 +24,10 @@ pillow_heif.register_heif_opener()
 
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".heic", ".heif"}
 
+# Gemini model used for question generation. Override with the GEMINI_MODEL
+# environment variable.
+DEFAULT_MODEL = "gemini-3.5-flash"
+
 GENERATION_PROMPT = """Jsi zkušený pedagog, který vytváří kvízové otázky pro děti. Všechny otázky a odpovědi piš ČESKY.
 
 Analyzuj KAŽDÝ poskytnutý obrázek z učebnice a/nebo sešitu. Tyto obrázky pokrývají konkrétní téma, které se žáci potřebují naučit.
@@ -158,9 +162,10 @@ def generate_questions(topic_dir: Path, output_dir: Path) -> Path:
 
     contents.append(types.Part.from_text(text=GENERATION_PROMPT))
 
-    print("\nSending to Gemini 3.5 Flash for analysis...")
+    model = os.getenv("GEMINI_MODEL", DEFAULT_MODEL)
+    print(f"\nSending to {model} for analysis...")
     response = client.models.generate_content(
-        model="gemini-3.5-flash",
+        model=model,
         contents=contents,
         config=types.GenerateContentConfig(
             temperature=0.7,

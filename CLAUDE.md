@@ -67,6 +67,7 @@ Questions are stored in `quizzes/<topic>.json`:
 ## Environment Variables
 
 - `GEMINI_API_KEY` - Google Gemini API key
+- `GEMINI_MODEL` - Optional override for the generation model (default: `gemini-3.5-flash`)
 
 ## Key Design Decisions
 
