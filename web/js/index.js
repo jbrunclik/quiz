@@ -7,6 +7,7 @@ const QUIZZES_MANIFEST = './quizzes/manifest.json?v=' + Date.now();
 let selectedIndex = 0;
 let quizCards = [];
 let helpVisible = false;
+let previousFocus = null;
 
 async function loadQuizzes() {
     const quizList = document.getElementById('quiz-list');
@@ -108,9 +109,14 @@ function toggleHelp() {
 function showHelp() {
     if (document.getElementById('help-overlay')) return;
 
+    previousFocus = document.activeElement;
+
     const overlay = document.createElement('div');
     overlay.id = 'help-overlay';
     overlay.className = 'help-overlay';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-label', 'Klávesové zkratky');
     overlay.innerHTML = `
         <div class="help-popup">
             <h3>Klávesové zkratky</h3>
@@ -129,6 +135,7 @@ function showHelp() {
     });
     document.body.appendChild(overlay);
     helpVisible = true;
+    document.getElementById('close-help').focus();
 }
 
 function hideHelp() {
@@ -137,6 +144,9 @@ function hideHelp() {
         overlay.remove();
     }
     helpVisible = false;
+    if (previousFocus && previousFocus.focus) {
+        previousFocus.focus();
+    }
 }
 
 function createQuizCard(quiz) {

@@ -92,9 +92,14 @@ class QuizRunner {
     showHelp() {
         if (document.getElementById('help-overlay')) return;
 
+        this.previousFocus = document.activeElement;
+
         const overlay = document.createElement('div');
         overlay.id = 'help-overlay';
         overlay.className = 'help-overlay';
+        overlay.setAttribute('role', 'dialog');
+        overlay.setAttribute('aria-modal', 'true');
+        overlay.setAttribute('aria-label', 'Klávesové zkratky');
         overlay.innerHTML = `
             <div class="help-popup">
                 <h3>Klávesové zkratky</h3>
@@ -115,6 +120,7 @@ class QuizRunner {
         });
         document.body.appendChild(overlay);
         this.helpVisible = true;
+        document.getElementById('close-help').focus();
     }
 
     hideHelp() {
@@ -123,6 +129,9 @@ class QuizRunner {
             overlay.remove();
         }
         this.helpVisible = false;
+        if (this.previousFocus && this.previousFocus.focus) {
+            this.previousFocus.focus();
+        }
     }
 
     navigateOptions(direction) {
@@ -193,6 +202,7 @@ class QuizRunner {
     updateProgress() {
         const progress = ((this.currentIndex) / this.questions.length) * 100;
         this.elements.progress.style.width = `${progress}%`;
+        this.elements.progress.setAttribute('aria-valuenow', Math.round(progress));
         this.elements.progressText.textContent = `${this.currentIndex} / ${this.questions.length}`;
     }
 
@@ -272,7 +282,8 @@ class QuizRunner {
         const value = savedAnswer !== null ? this.escapeHtml(savedAnswer) : '';
         return `
             <input type="text" class="fill-blank-input" id="fill-blank-input"
-                   placeholder="Napiš odpověď..." value="${value}" autocomplete="off">
+                   placeholder="Napiš odpověď..." value="${value}" autocomplete="off"
+                   aria-label="Tvoje odpověď">
         `;
     }
 
@@ -408,6 +419,7 @@ class QuizRunner {
         }
 
         this.elements.progress.style.width = '100%';
+        this.elements.progress.setAttribute('aria-valuenow', 100);
         this.elements.progressText.textContent = `${this.questions.length} / ${this.questions.length}`;
 
         if (results.mistakes.length > 0) {
