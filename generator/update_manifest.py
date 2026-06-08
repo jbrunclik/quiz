@@ -40,8 +40,10 @@ def update_manifest():
         except (json.JSONDecodeError, IOError):
             pass
 
-    # Sort by date (newest first), then by topic name
-    quizzes.sort(key=lambda q: (q["dateAdded"], q["topic"]), reverse=True)
+    # Sort by date (newest first), then by topic name (A-Z). Sorting is
+    # stable, so apply the secondary key first.
+    quizzes.sort(key=lambda q: q["topic"])
+    quizzes.sort(key=lambda q: q["dateAdded"], reverse=True)
 
     manifest = {"quizzes": quizzes}
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
