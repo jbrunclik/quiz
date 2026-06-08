@@ -6,7 +6,6 @@ Generates quiz questions from textbook/notebook images using Gemini 3 Pro.
 """
 
 import argparse
-import base64
 import json
 import os
 import sys
@@ -91,8 +90,8 @@ PAMATUJ: Vygeneruj MINIMUM 3-5 otázek z KAŽDÉ stránky. Buď důkladný!
 Odpověz POUZE JSON objektem, žádný další text."""
 
 
-def load_image_as_base64(image_path: Path) -> tuple[str, str]:
-    """Load an image and return as base64 with its mime type.
+def load_image_bytes(image_path: Path) -> tuple[bytes, str]:
+    """Load an image and return its raw bytes with its mime type.
 
     HEIC/HEIF images are converted to JPEG for API compatibility.
     """
@@ -108,8 +107,7 @@ def load_image_as_base64(image_path: Path) -> tuple[str, str]:
                 img = img.convert("RGB")
             buffer = io.BytesIO()
             img.save(buffer, format="JPEG", quality=95)
-            image_data = base64.standard_b64encode(buffer.getvalue()).decode("utf-8")
-        return image_data, "image/jpeg"
+            return buffer.getvalue(), "image/jpeg"
 
     mime_types = {
         ".jpg": "image/jpeg",
@@ -120,10 +118,7 @@ def load_image_as_base64(image_path: Path) -> tuple[str, str]:
     }
     mime_type = mime_types.get(extension, "image/jpeg")
 
-    with open(image_path, "rb") as f:
-        image_data = base64.standard_b64encode(f.read()).decode("utf-8")
-
-    return image_data, mime_type
+    return image_path.read_bytes(), mime_type
 
 
 def get_images_from_directory(directory: Path) -> list[Path]:
@@ -158,10 +153,8 @@ def generate_questions(topic_dir: Path, output_dir: Path) -> Path:
     contents = []
     for image_path in images:
         print(f"Loading {image_path.name}...")
-        image_data, mime_type = load_image_as_base64(image_path)
-        contents.append(
-            types.Part.from_bytes(data=base64.standard_b64decode(image_data), mime_type=mime_type)
-        )
+        image_bytes, mime_type = load_image_bytes(image_path)
+        contents.append(types.Part.from_bytes(data=image_bytes, mime_type=mime_type))
 
     contents.append(types.Part.from_text(text=GENERATION_PROMPT))
 
