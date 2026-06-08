@@ -21,12 +21,7 @@ async function loadQuizzes() {
         const quizzes = manifest.quizzes || [];
 
         if (quizzes.length === 0) {
-            quizList.innerHTML = `
-                <div class="empty-state">
-                    <p>Zatím nejsou k dispozici žádné kvízy.</p>
-                    <p>Vytvoř kvíz pomocí: <code>make generate TOPIC=nazev-tematu</code></p>
-                </div>
-            `;
+            showEmptyState(quizList);
             return;
         }
 
@@ -43,13 +38,17 @@ async function loadQuizzes() {
         }
     } catch (error) {
         console.error('Error loading quizzes:', error);
-        quizList.innerHTML = `
-            <div class="empty-state">
-                <p>Zatím nejsou k dispozici žádné kvízy.</p>
-                <p>Vytvoř kvíz pomocí: <code>make generate TOPIC=nazev-tematu</code></p>
-            </div>
-        `;
+        showEmptyState(quizList);
     }
+}
+
+function showEmptyState(quizList) {
+    quizList.innerHTML = `
+        <div class="empty-state">
+            <p>Zatím nejsou k dispozici žádné kvízy.</p>
+            <p>Vytvoř kvíz pomocí: <code>make generate TOPIC=nazev-tematu</code></p>
+        </div>
+    `;
 }
 
 function updateSelection(newIndex) {
