@@ -1,4 +1,4 @@
-.PHONY: setup generate serve clean update-manifest help
+.PHONY: setup generate serve clean update-manifest test help
 
 PYTHON := ./venv/bin/python
 PIP := ./venv/bin/pip
@@ -10,6 +10,7 @@ help:
 	@echo "  make generate TOPIC=x   Generate questions for topic 'x' from topics/x/"
 	@echo "  make serve              Start local development server"
 	@echo "  make update-manifest    Update quiz manifest (auto-run after generate)"
+	@echo "  make test               Run the Python and JS test suites"
 	@echo "  make clean              Remove generated files and venv"
 	@echo ""
 	@echo "Example:"
@@ -38,6 +39,12 @@ endif
 update-manifest:
 	@echo "Updating quiz manifest..."
 	@$(PYTHON) generator/update_manifest.py
+
+test:
+	@echo "Running Python tests..."
+	@$(PYTHON) -m unittest discover -s generator -p 'test_*.py'
+	@echo "Running JS tests..."
+	@node --test tests/*.test.js
 
 serve:
 	@echo "Starting local development server..."
