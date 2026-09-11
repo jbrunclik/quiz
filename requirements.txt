@@ -1,4 +1,4 @@
-google-genai>=2.21.0
+google-genai>=2.22.0
 python-dotenv>=1.2.3
 Pillow>=12.3.0
 pillow-heif>=1.7.0
