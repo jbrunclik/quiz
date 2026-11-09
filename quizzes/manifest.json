@@ -1,6 +1,12 @@
 {
   "quizzes": [
     {
+      "file": "viki-higeo.json",
+      "topic": "Fyzická geografie – Mapa, Glóbus, Litosféra, Hydrosféra, Atmosféra, Pedosféra a Biosféra",
+      "questionCount": 33,
+      "dateAdded": "2026-11-09"
+    },
+    {
       "file": "vlastiveda-5.json",
       "topic": "Evropa – náš domov, sousedé a role ve světě",
       "questionCount": 54,

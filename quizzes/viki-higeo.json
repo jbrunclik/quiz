@@ -1,0 +1,281 @@
+{
+  "topic": "Fyzická geografie – Mapa, Glóbus, Litosféra, Hydrosféra, Atmosféra, Pedosféra a Biosféra",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Jaký je hlavní rozdíl mezi mapou a glóbusem?",
+      "options": [
+        "Mapa je trojrozměrný model Země, zatímco glóbus je zmenšené ploché zobrazení.",
+        "Mapa je zmenšené ploché zobrazení Země, zatímco glóbus je trojrozměrný model Země.",
+        "Mezi mapou a glóbusem není žádný rozdíl.",
+        "Glóbus zobrazuje pouze kontinenty, zatímco mapa pouze oceány."
+      ],
+      "answer": 1,
+      "explanation": "Mapa zobrazuje Zemi v rovinné (ploché) podobě, zatímco glóbus představuje její zmenšený prostorový model."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Základní rovnoběžkou se zeměpisnou šířkou 0° je ___.",
+      "answer": "rovník",
+      "explanation": "Rovník rozděluje Zemi na severní a jižní polokouli a má hodnotu 0° zeměpisné šířky."
+    },
+    {
+      "type": "true_false",
+      "question": "Greenwichský poledník má hodnotu 0° zeměpisné délky.",
+      "answer": true,
+      "explanation": "Nultý (Greenwichský) poledník se nachází na 0° zeměpisné délky a prochází hvězdárnou v Greenwichi."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Pokud měřítko mapy udává 1 : 100 000, kolik kilometrů ve skutečnosti odpovídá 1 cm na mapě?",
+      "options": [
+        "10 km",
+        "1 km",
+        "100 km",
+        "0,1 km"
+      ],
+      "answer": 1,
+      "explanation": "100 000 cm je 1 000 metrů, což je přesně 1 kilometr."
+    },
+    {
+      "type": "fill_blank",
+      "question": "V minulosti existoval jediný spojený prakontinent nazývaný ___.",
+      "answer": "Pangea",
+      "explanation": "Pangea byl superkontinent, který se postupně rozpadl na dnešní kontinenty."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Z jakých částí se skládá litosféra?",
+      "options": [
+        "Pouze ze zemské kůry",
+        "Ze zemské kůry a vrchního pláště",
+        "Z vnitřního a vnějšího jádra",
+        "Z atmosféry a hydrosféry"
+      ],
+      "answer": 1,
+      "explanation": "Litosféra je pevný obal Země tvořený zemskou kůrou a nejvrchnější částí zemského pláště."
+    },
+    {
+      "type": "true_false",
+      "question": "Litosférické desky se pohybují rychlostí několika metrů za den.",
+      "answer": false,
+      "explanation": "Pohyb litosférických desek je velmi pomalý, obvykle dosahuje jen několika centimetrů za rok."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Co vzniká na místech, kde se litosférické desky od sebe oddalují?",
+      "options": [
+        "Nová zemská kůra (např. Středoatlantský hřbet)",
+        "Hlubokomořské příkopy bez vzniku kůry",
+        "Vysoká vrásná pohoří jako Himálaj",
+        "Pevninské ledovce"
+      ],
+      "answer": 0,
+      "explanation": "Při oddalování desek vzniká v mezeře nová zemská kůra z vytékajícího magmatu."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Místo, kde se jedna litosférická deska podsouvá pod druhou, často vede ke vzniku sopek a ___.",
+      "answer": "zemětřesení",
+      "explanation": "Podsouvání desek způsobuje nahromadění tlaku a energii, což vede k zemětřesením a vulkanismu."
+    },
+    {
+      "type": "true_false",
+      "question": "Nejtenčí vrstvou Zemského tělesa je zemská kůra.",
+      "answer": true,
+      "explanation": "Zemská kůra je v porovnání s pláštěm a jádrem nejtenčí vrstvou (cca 6 km pod oceány, kolem 40 km pod pevninami)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kolik procent povrchu Země pokrývá voda?",
+      "options": [
+        "přibližně 50 %",
+        "přibližně 71 %",
+        "přibližně 90 %",
+        "přibližně 33 %"
+      ],
+      "answer": 1,
+      "explanation": "Voda pokrývá přibližně 71 % zemského povrchu."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Většina sladké vody na Zemi je vázána v ___.",
+      "answer": "ledovcích",
+      "explanation": "Až kolem 70 % veškeré sladké vody na Zemi se nachází v pevninských a horských ledovcích."
+    },
+    {
+      "type": "true_false",
+      "question": "Sladká voda tvoří většinu veškeré vody na Zemi.",
+      "answer": false,
+      "explanation": "Většina vody na Zemi (cca 97 %) je slaná mořská voda; sladká voda tvoří jen cca 3 %."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Který z následujících oceánů NEPATŘÍ mezi 5 světových oceánů?",
+      "options": [
+        "Tichý oceán",
+        "Severní ledový oceán",
+        "Středozemní oceán",
+        "Jižní oceán"
+      ],
+      "answer": 2,
+      "explanation": "Středozemní moře je vnitřní moře, nikoli samostatný světový oceán."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Místo, kde řeka začíná a vyvěrá na povrch, se nazývá ___.",
+      "answer": "pramen",
+      "explanation": "Počáteční bod vodního toku se označuje jako pramen."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jaký je hlavní rozdíl mezi jezerem a rybníkem?",
+      "options": [
+        "Jezero je uměle vytvořené, rybník je přírodní nádrž.",
+        "Jezero je přírodní vodní nádrž, rybník je uměle vytvořená vodní nádrž.",
+        "Jezero obsahuje pouze slanou vodu, rybník pouze sladkou.",
+        "Rybník je vždy větší než jezero."
+      ],
+      "answer": 1,
+      "explanation": "Jezero vzniká přírodními procesy, zatímco rybník byl vybudován člověkem."
+    },
+    {
+      "type": "true_false",
+      "question": "Příliv a odliv jsou způsobeny především gravitačním působením Měsíce a Slunce.",
+      "answer": true,
+      "explanation": "Dmutí moří (příliv a odliv) má na svědomí především gravitační síla Měsíce a v menší míře Slunce."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pravidelné vlnění mořské hladiny je způsobeno především působením ___.",
+      "answer": "větru",
+      "explanation": "Vír a tření větru o mořskou hladinu vytváří mořské vlny."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "V jaké vrstvě atmosféry vzniká většina počasí a nachází se v ní většina vzduchu?",
+      "options": [
+        "Stratosféra",
+        "Troposféra",
+        "Termosféra",
+        "Exosféra"
+      ],
+      "answer": 1,
+      "explanation": "Troposféra je nejnižší vrstva atmosféry, kde probíhá většina meteorologických dějů."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Nejzastoupenějším plynem v zemské atmosféře je ___ s podílem přibližně 78 %.",
+      "answer": "dusík",
+      "explanation": "Atmosféru tvoří zhruba 78 % dusíku a 21 % kyslíku."
+    },
+    {
+      "type": "true_false",
+      "question": "Počasí popisuje dlouhodobý stav atmosféry na daném místě na základě mnohaletého pozorování.",
+      "answer": false,
+      "explanation": "Počasí je krátkodobý stav atmosféry, zatímco podnebí (klima) je dlouhodobý režim počasí."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se mění teplota vzduchu s rostoucí nadmořskou výškou v troposféře?",
+      "options": [
+        "Teplota stoupá.",
+        "Teplota klesá (přibližně o 0,6 °C na 100 m).",
+        "Teplota zůstává zcela neměnná.",
+        "Teplota kolísá náhodně bez pravidla."
+      ],
+      "answer": 1,
+      "explanation": "S rostoucí výškou v troposféře teplota vzduchu průměrně klesá o 0,6 °C na každých 100 metrů."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Vzduch proudí vždy z oblasti ___ tlaku vzduchu do oblasti nižšího tlaku.",
+      "answer": "vyššího",
+      "explanation": "Vzdušné masy se pohybují ze zón vyššího tlaku vzduchu (tlakové výše) do zón nižšího tlaku (tlakové níže)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Jak se nazývají stálé větry vanoucí od obratníků směrem k rovníku?",
+      "options": [
+        "Monzuny",
+        "Pasáty",
+        "Tornáda",
+        "Vichřice"
+      ],
+      "answer": 1,
+      "explanation": "Pasáty jsou pravidelné větry v tropickém pásu vanoucí směrem k rovníku."
+    },
+    {
+      "type": "true_false",
+      "question": "Kontinentální (vnitrozemské) podnebí mírného pásu se vyznačuje malými rozdíly mezi letními a zimními teplotami.",
+      "answer": false,
+      "explanation": "Vnitrozemské podnebí má naopak velké teplotní rozdíly – horká léta a mrazivé zimy."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Půdní obal Země se odborně nazývá ___.",
+      "answer": "pedosféra",
+      "explanation": "Pedosféra je sféra půdy tvořící povrchovou vrstvu pevniny."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Z čeho se skládá organická část půdy (humus)?",
+      "options": [
+        "Z rozpadlých zvětralých hornin a minerálů",
+        "Z odumřelých a rozložených těl rostlin a živočichů",
+        "Pouze z čisté mořské vody",
+        "Ze stlačených gazových plynů"
+      ],
+      "answer": 1,
+      "explanation": "Humus tvoří rozložené organické zbytky rostlinného a živočišného původu."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Živý obal Země, který zahrnuje všechny oblasti obývané živými organismy, se nazývá ___.",
+      "answer": "biosféra",
+      "explanation": "Biosféra je část Země, kde žijí živé organismy."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Pro který biom je typické trvale zmrzlé podloží, neúrodná půda, mechy, lišejníky a výskyt sobů či polárních lišek?",
+      "options": [
+        "Savana",
+        "Tundra",
+        "Tropický deštný les",
+        "Stepi"
+      ],
+      "answer": 1,
+      "explanation": "Tundra se nachází v chladných subpolárních oblastech s chudou vegetací a trvale zmrzlou půdou."
+    },
+    {
+      "type": "true_false",
+      "question": "V tropickém deštném lese se střídají význačná období sucha a zimy.",
+      "answer": false,
+      "explanation": "Tropické deštné lesy mají celoročně vysoké teploty i vydatné srážky bez výrazného období sucha."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Pro který biom jsou charakteristická stáda travojedů (žirafy, zebry, sloni), akácie a střídání období dešťů a sucha?",
+      "options": [
+        "Savana",
+        "Tajga",
+        "Tundra",
+        "Pustina"
+      ],
+      "answer": 0,
+      "explanation": "Savany jsou tropické travnaté oblasti se střídáním vlhkého a suchého období."
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sezónní větry, které v létě přinášejí z oceánu vydatné srážky a v zimě vanou z pevniny, se nazývají ___.",
+      "answer": "monzuny",
+      "explanation": "Monzuny mění směr podle ročního období v důsledku rozdílného ohřívání pevniny a oceánu."
+    },
+    {
+      "type": "true_false",
+      "question": "Golfský proud je příkladem teplého oceánského proudu, který otepluje podnebí v Evropě.",
+      "answer": true,
+      "explanation": "Golfský proud přináší teplou vodu z Karibiku k severozápadní Evropě a zmírňuje tamější zimy."
+    }
+  ]
+}
